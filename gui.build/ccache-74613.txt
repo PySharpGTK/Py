@@ -1,0 +1,1878 @@
+[2022-09-28T22:36:31.314532 74630] === CCACHE 4.2.1 STARTED =========================================
+[2022-09-28T22:36:31.314532 74630] Config: (default) absolute_paths_in_stderr = false
+[2022-09-28T22:36:31.314532 74630] Config: (default) base_dir = 
+[2022-09-28T22:36:31.314532 74630] Config: (environment) cache_dir = /home/link/.cache/Nuitka/ccache
+[2022-09-28T22:36:31.314532 74630] Config: (default) compiler = 
+[2022-09-28T22:36:31.314532 74630] Config: (default) compiler_check = mtime
+[2022-09-28T22:36:31.314532 74630] Config: (default) compiler_type = auto
+[2022-09-28T22:36:31.314532 74630] Config: (default) compression = true
+[2022-09-28T22:36:31.314532 74630] Config: (default) compression_level = 0
+[2022-09-28T22:36:31.314532 74630] Config: (default) cpp_extension = 
+[2022-09-28T22:36:31.314532 74630] Config: (default) debug = false
+[2022-09-28T22:36:31.314532 74630] Config: (default) debug_dir = 
+[2022-09-28T22:36:31.314532 74630] Config: (default) depend_mode = false
+[2022-09-28T22:36:31.314532 74630] Config: (default) direct_mode = true
+[2022-09-28T22:36:31.314532 74630] Config: (default) disable = false
+[2022-09-28T22:36:31.314532 74630] Config: (default) extra_files_to_hash = 
+[2022-09-28T22:36:31.314532 74630] Config: (default) file_clone = false
+[2022-09-28T22:36:31.314532 74630] Config: (default) hard_link = false
+[2022-09-28T22:36:31.314532 74630] Config: (default) hash_dir = true
+[2022-09-28T22:36:31.314532 74630] Config: (default) ignore_headers_in_manifest = 
+[2022-09-28T22:36:31.314532 74630] Config: (default) ignore_options = 
+[2022-09-28T22:36:31.314532 74630] Config: (default) inode_cache = false
+[2022-09-28T22:36:31.314532 74630] Config: (default) keep_comments_cpp = false
+[2022-09-28T22:36:31.314532 74630] Config: (default) limit_multiple = 0.8
+[2022-09-28T22:36:31.314532 74630] Config: (environment) log_file = /home/link/PySharpGTK/gui.build/ccache-74613.txt
+[2022-09-28T22:36:31.314532 74630] Config: (default) max_files = 0
+[2022-09-28T22:36:31.314532 74630] Config: (default) max_size = 5.0G
+[2022-09-28T22:36:31.314532 74630] Config: (default) path = 
+[2022-09-28T22:36:31.314532 74630] Config: (default) pch_external_checksum = false
+[2022-09-28T22:36:31.314532 74630] Config: (default) prefix_command = 
+[2022-09-28T22:36:31.314532 74630] Config: (default) prefix_command_cpp = 
+[2022-09-28T22:36:31.314532 74630] Config: (default) read_only = false
+[2022-09-28T22:36:31.314532 74630] Config: (default) read_only_direct = false
+[2022-09-28T22:36:31.314532 74630] Config: (default) recache = false
+[2022-09-28T22:36:31.314532 74630] Config: (default) run_second_cpp = true
+[2022-09-28T22:36:31.314532 74630] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2022-09-28T22:36:31.314532 74630] Config: (default) stats = true
+[2022-09-28T22:36:31.314532 74630] Config: (default) temporary_dir = /run/user/1000/ccache-tmp
+[2022-09-28T22:36:31.314532 74630] Config: (default) umask = 
+[2022-09-28T22:36:31.314583 74630] Command line: /usr/bin/ccache /usr/bin/gcc -o __constants.o -c -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -D_NUITKA_STANDALONE -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=152 -D_NUITKA_EXE -D_NUITKA_PLUGIN_MULTIPROCESSING_ENABLED=1 -I/usr/include/python3.9 -I. -I/home/link/.local/lib/python3.9/site-packages/nuitka/build/include -I/home/link/.local/lib/python3.9/site-packages/nuitka/build/static_src __constants.c
+[2022-09-28T22:36:31.314591 74630] Hostname: poopos
+[2022-09-28T22:36:31.314594 74630] Working directory: /home/link/PySharpGTK/gui.build
+[2022-09-28T22:36:31.314597 74630] Compiler type: gcc
+[2022-09-28T22:36:31.314650 74630] Source file: __constants.c
+[2022-09-28T22:36:31.314655 74630] Object file: __constants.o
+[2022-09-28T22:36:31.314664 74630] Trying direct lookup
+[2022-09-28T22:36:31.314694 74630] Looking for result name in /home/link/.cache/Nuitka/ccache/f/8/97ouf73g4c95pfdp86b3thljfrjpil2M
+[2022-09-28T22:36:31.316949 74630] Got result name from manifest
+[2022-09-28T22:36:31.316960 74630] Reading result /home/link/.cache/Nuitka/ccache/3/2/afk6nheu2h27mmtk8gneu6pg4denjpoR
+[2022-09-28T22:36:31.317014 74630] Reading embedded entry #0 .o (13936 bytes)
+[2022-09-28T22:36:31.317020 74630] Writing to __constants.o
+[2022-09-28T22:36:31.317050 74630] Succeeded getting cached result
+[2022-09-28T22:36:31.317057 74630] Result: cache hit (direct)
+[2022-09-28T22:36:31.317088 74630] Acquired lock /home/link/.cache/Nuitka/ccache/3/2/stats.lock
+[2022-09-28T22:36:31.317152 74630] Releasing lock /home/link/.cache/Nuitka/ccache/3/2/stats.lock
+[2022-09-28T22:36:31.317167 74630] Unlink /home/link/.cache/Nuitka/ccache/3/2/stats.lock
+[2022-09-28T22:36:31.323138 74633] === CCACHE 4.2.1 STARTED =========================================
+[2022-09-28T22:36:31.323138 74633] Config: (default) absolute_paths_in_stderr = false
+[2022-09-28T22:36:31.323138 74633] Config: (default) base_dir = 
+[2022-09-28T22:36:31.323138 74633] Config: (environment) cache_dir = /home/link/.cache/Nuitka/ccache
+[2022-09-28T22:36:31.323138 74633] Config: (default) compiler = 
+[2022-09-28T22:36:31.323138 74633] Config: (default) compiler_check = mtime
+[2022-09-28T22:36:31.323138 74633] Config: (default) compiler_type = auto
+[2022-09-28T22:36:31.323138 74633] Config: (default) compression = true
+[2022-09-28T22:36:31.323138 74633] Config: (default) compression_level = 0
+[2022-09-28T22:36:31.323138 74633] Config: (default) cpp_extension = 
+[2022-09-28T22:36:31.323138 74633] Config: (default) debug = false
+[2022-09-28T22:36:31.323138 74633] Config: (default) debug_dir = 
+[2022-09-28T22:36:31.323138 74633] Config: (default) depend_mode = false
+[2022-09-28T22:36:31.323138 74633] Config: (default) direct_mode = true
+[2022-09-28T22:36:31.323138 74633] Config: (default) disable = false
+[2022-09-28T22:36:31.323138 74633] Config: (default) extra_files_to_hash = 
+[2022-09-28T22:36:31.323138 74633] Config: (default) file_clone = false
+[2022-09-28T22:36:31.323138 74633] Config: (default) hard_link = false
+[2022-09-28T22:36:31.323138 74633] Config: (default) hash_dir = true
+[2022-09-28T22:36:31.323138 74633] Config: (default) ignore_headers_in_manifest = 
+[2022-09-28T22:36:31.323138 74633] Config: (default) ignore_options = 
+[2022-09-28T22:36:31.323138 74633] Config: (default) inode_cache = false
+[2022-09-28T22:36:31.323138 74633] Config: (default) keep_comments_cpp = false
+[2022-09-28T22:36:31.323138 74633] Config: (default) limit_multiple = 0.8
+[2022-09-28T22:36:31.323138 74633] Config: (environment) log_file = /home/link/PySharpGTK/gui.build/ccache-74613.txt
+[2022-09-28T22:36:31.323138 74633] Config: (default) max_files = 0
+[2022-09-28T22:36:31.323138 74633] Config: (default) max_size = 5.0G
+[2022-09-28T22:36:31.323138 74633] Config: (default) path = 
+[2022-09-28T22:36:31.323138 74633] Config: (default) pch_external_checksum = false
+[2022-09-28T22:36:31.323138 74633] Config: (default) prefix_command = 
+[2022-09-28T22:36:31.323138 74633] Config: (default) prefix_command_cpp = 
+[2022-09-28T22:36:31.323138 74633] Config: (default) read_only = false
+[2022-09-28T22:36:31.323138 74633] Config: (default) read_only_direct = false
+[2022-09-28T22:36:31.323138 74633] Config: (default) recache = false
+[2022-09-28T22:36:31.323138 74633] Config: (default) run_second_cpp = true
+[2022-09-28T22:36:31.323138 74633] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2022-09-28T22:36:31.323138 74633] Config: (default) stats = true
+[2022-09-28T22:36:31.323138 74633] Config: (default) temporary_dir = /run/user/1000/ccache-tmp
+[2022-09-28T22:36:31.323138 74633] Config: (default) umask = 
+[2022-09-28T22:36:31.323190 74633] Command line: /usr/bin/ccache /usr/bin/gcc -o __helpers.o -c -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -D_NUITKA_STANDALONE -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=152 -D_NUITKA_EXE -D_NUITKA_PLUGIN_MULTIPROCESSING_ENABLED=1 -I/usr/include/python3.9 -I. -I/home/link/.local/lib/python3.9/site-packages/nuitka/build/include -I/home/link/.local/lib/python3.9/site-packages/nuitka/build/static_src __helpers.c
+[2022-09-28T22:36:31.323202 74633] Hostname: poopos
+[2022-09-28T22:36:31.323207 74633] Working directory: /home/link/PySharpGTK/gui.build
+[2022-09-28T22:36:31.323213 74633] Compiler type: gcc
+[2022-09-28T22:36:31.323268 74633] Source file: __helpers.c
+[2022-09-28T22:36:31.323275 74633] Object file: __helpers.o
+[2022-09-28T22:36:31.323286 74633] Trying direct lookup
+[2022-09-28T22:36:31.323314 74633] Looking for result name in /home/link/.cache/Nuitka/ccache/3/a/ee5hm8fi7sdvvecre3ma68dql5vt1dqM
+[2022-09-28T22:36:31.325570 74633] Got result name from manifest
+[2022-09-28T22:36:31.325583 74633] Reading result /home/link/.cache/Nuitka/ccache/f/1/60ho6233rct1fh76pa0veplitmkap7aR
+[2022-09-28T22:36:31.325639 74633] Reading embedded entry #0 .o (2840 bytes)
+[2022-09-28T22:36:31.325647 74633] Writing to __helpers.o
+[2022-09-28T22:36:31.325686 74633] Succeeded getting cached result
+[2022-09-28T22:36:31.325695 74633] Result: cache hit (direct)
+[2022-09-28T22:36:31.325728 74633] Acquired lock /home/link/.cache/Nuitka/ccache/f/1/stats.lock
+[2022-09-28T22:36:31.325850 74633] Releasing lock /home/link/.cache/Nuitka/ccache/f/1/stats.lock
+[2022-09-28T22:36:31.325875 74633] Unlink /home/link/.cache/Nuitka/ccache/f/1/stats.lock
+[2022-09-28T22:36:31.329617 74636] === CCACHE 4.2.1 STARTED =========================================
+[2022-09-28T22:36:31.329617 74636] Config: (default) absolute_paths_in_stderr = false
+[2022-09-28T22:36:31.329617 74636] Config: (default) base_dir = 
+[2022-09-28T22:36:31.329617 74636] Config: (environment) cache_dir = /home/link/.cache/Nuitka/ccache
+[2022-09-28T22:36:31.329617 74636] Config: (default) compiler = 
+[2022-09-28T22:36:31.329617 74636] Config: (default) compiler_check = mtime
+[2022-09-28T22:36:31.329617 74636] Config: (default) compiler_type = auto
+[2022-09-28T22:36:31.329617 74636] Config: (default) compression = true
+[2022-09-28T22:36:31.329617 74636] Config: (default) compression_level = 0
+[2022-09-28T22:36:31.329617 74636] Config: (default) cpp_extension = 
+[2022-09-28T22:36:31.329617 74636] Config: (default) debug = false
+[2022-09-28T22:36:31.329617 74636] Config: (default) debug_dir = 
+[2022-09-28T22:36:31.329617 74636] Config: (default) depend_mode = false
+[2022-09-28T22:36:31.329617 74636] Config: (default) direct_mode = true
+[2022-09-28T22:36:31.329617 74636] Config: (default) disable = false
+[2022-09-28T22:36:31.329617 74636] Config: (default) extra_files_to_hash = 
+[2022-09-28T22:36:31.329617 74636] Config: (default) file_clone = false
+[2022-09-28T22:36:31.329617 74636] Config: (default) hard_link = false
+[2022-09-28T22:36:31.329617 74636] Config: (default) hash_dir = true
+[2022-09-28T22:36:31.329617 74636] Config: (default) ignore_headers_in_manifest = 
+[2022-09-28T22:36:31.329617 74636] Config: (default) ignore_options = 
+[2022-09-28T22:36:31.329617 74636] Config: (default) inode_cache = false
+[2022-09-28T22:36:31.329617 74636] Config: (default) keep_comments_cpp = false
+[2022-09-28T22:36:31.329617 74636] Config: (default) limit_multiple = 0.8
+[2022-09-28T22:36:31.329617 74636] Config: (environment) log_file = /home/link/PySharpGTK/gui.build/ccache-74613.txt
+[2022-09-28T22:36:31.329617 74636] Config: (default) max_files = 0
+[2022-09-28T22:36:31.329617 74636] Config: (default) max_size = 5.0G
+[2022-09-28T22:36:31.329617 74636] Config: (default) path = 
+[2022-09-28T22:36:31.329617 74636] Config: (default) pch_external_checksum = false
+[2022-09-28T22:36:31.329617 74636] Config: (default) prefix_command = 
+[2022-09-28T22:36:31.329617 74636] Config: (default) prefix_command_cpp = 
+[2022-09-28T22:36:31.329617 74636] Config: (default) read_only = false
+[2022-09-28T22:36:31.329617 74636] Config: (default) read_only_direct = false
+[2022-09-28T22:36:31.329617 74636] Config: (default) recache = false
+[2022-09-28T22:36:31.329617 74636] Config: (default) run_second_cpp = true
+[2022-09-28T22:36:31.329617 74636] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2022-09-28T22:36:31.329617 74636] Config: (default) stats = true
+[2022-09-28T22:36:31.329617 74636] Config: (default) temporary_dir = /run/user/1000/ccache-tmp
+[2022-09-28T22:36:31.329617 74636] Config: (default) umask = 
+[2022-09-28T22:36:31.329656 74636] Command line: /usr/bin/ccache /usr/bin/gcc -o __loader.o -c -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -D_NUITKA_STANDALONE -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=152 -D_NUITKA_EXE -D_NUITKA_PLUGIN_MULTIPROCESSING_ENABLED=1 -I/usr/include/python3.9 -I. -I/home/link/.local/lib/python3.9/site-packages/nuitka/build/include -I/home/link/.local/lib/python3.9/site-packages/nuitka/build/static_src __loader.c
+[2022-09-28T22:36:31.329667 74636] Hostname: poopos
+[2022-09-28T22:36:31.329671 74636] Working directory: /home/link/PySharpGTK/gui.build
+[2022-09-28T22:36:31.329674 74636] Compiler type: gcc
+[2022-09-28T22:36:31.329724 74636] Source file: __loader.c
+[2022-09-28T22:36:31.329729 74636] Object file: __loader.o
+[2022-09-28T22:36:31.329737 74636] Trying direct lookup
+[2022-09-28T22:36:31.329830 74636] Looking for result name in /home/link/.cache/Nuitka/ccache/d/3/aa9u9m6etapfraqaj1se1nmh7n0shdaM
+[2022-09-28T22:36:31.331347 74636] Got result name from manifest
+[2022-09-28T22:36:31.331357 74636] Reading result /home/link/.cache/Nuitka/ccache/d/5/b5bq6tr28l8ngun4pvrcmvcofpntup0R
+[2022-09-28T22:36:31.331406 74636] Reading embedded entry #0 .o (34088 bytes)
+[2022-09-28T22:36:31.331413 74636] Writing to __loader.o
+[2022-09-28T22:36:31.331458 74636] Succeeded getting cached result
+[2022-09-28T22:36:31.331465 74636] Result: cache hit (direct)
+[2022-09-28T22:36:31.331488 74636] Acquired lock /home/link/.cache/Nuitka/ccache/d/5/stats.lock
+[2022-09-28T22:36:31.331568 74636] Releasing lock /home/link/.cache/Nuitka/ccache/d/5/stats.lock
+[2022-09-28T22:36:31.331581 74636] Unlink /home/link/.cache/Nuitka/ccache/d/5/stats.lock
+[2022-09-28T22:36:31.335165 74639] === CCACHE 4.2.1 STARTED =========================================
+[2022-09-28T22:36:31.335165 74639] Config: (default) absolute_paths_in_stderr = false
+[2022-09-28T22:36:31.335165 74639] Config: (default) base_dir = 
+[2022-09-28T22:36:31.335165 74639] Config: (environment) cache_dir = /home/link/.cache/Nuitka/ccache
+[2022-09-28T22:36:31.335165 74639] Config: (default) compiler = 
+[2022-09-28T22:36:31.335165 74639] Config: (default) compiler_check = mtime
+[2022-09-28T22:36:31.335165 74639] Config: (default) compiler_type = auto
+[2022-09-28T22:36:31.335165 74639] Config: (default) compression = true
+[2022-09-28T22:36:31.335165 74639] Config: (default) compression_level = 0
+[2022-09-28T22:36:31.335165 74639] Config: (default) cpp_extension = 
+[2022-09-28T22:36:31.335165 74639] Config: (default) debug = false
+[2022-09-28T22:36:31.335165 74639] Config: (default) debug_dir = 
+[2022-09-28T22:36:31.335165 74639] Config: (default) depend_mode = false
+[2022-09-28T22:36:31.335165 74639] Config: (default) direct_mode = true
+[2022-09-28T22:36:31.335165 74639] Config: (default) disable = false
+[2022-09-28T22:36:31.335165 74639] Config: (default) extra_files_to_hash = 
+[2022-09-28T22:36:31.335165 74639] Config: (default) file_clone = false
+[2022-09-28T22:36:31.335165 74639] Config: (default) hard_link = false
+[2022-09-28T22:36:31.335165 74639] Config: (default) hash_dir = true
+[2022-09-28T22:36:31.335165 74639] Config: (default) ignore_headers_in_manifest = 
+[2022-09-28T22:36:31.335165 74639] Config: (default) ignore_options = 
+[2022-09-28T22:36:31.335165 74639] Config: (default) inode_cache = false
+[2022-09-28T22:36:31.335165 74639] Config: (default) keep_comments_cpp = false
+[2022-09-28T22:36:31.335165 74639] Config: (default) limit_multiple = 0.8
+[2022-09-28T22:36:31.335165 74639] Config: (environment) log_file = /home/link/PySharpGTK/gui.build/ccache-74613.txt
+[2022-09-28T22:36:31.335165 74639] Config: (default) max_files = 0
+[2022-09-28T22:36:31.335165 74639] Config: (default) max_size = 5.0G
+[2022-09-28T22:36:31.335165 74639] Config: (default) path = 
+[2022-09-28T22:36:31.335165 74639] Config: (default) pch_external_checksum = false
+[2022-09-28T22:36:31.335165 74639] Config: (default) prefix_command = 
+[2022-09-28T22:36:31.335165 74639] Config: (default) prefix_command_cpp = 
+[2022-09-28T22:36:31.335165 74639] Config: (default) read_only = false
+[2022-09-28T22:36:31.335165 74639] Config: (default) read_only_direct = false
+[2022-09-28T22:36:31.335165 74639] Config: (default) recache = false
+[2022-09-28T22:36:31.335165 74639] Config: (default) run_second_cpp = true
+[2022-09-28T22:36:31.335165 74639] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2022-09-28T22:36:31.335165 74639] Config: (default) stats = true
+[2022-09-28T22:36:31.335165 74639] Config: (default) temporary_dir = /run/user/1000/ccache-tmp
+[2022-09-28T22:36:31.335165 74639] Config: (default) umask = 
+[2022-09-28T22:36:31.335207 74639] Command line: /usr/bin/ccache /usr/bin/gcc -o module.__main__.o -c -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -D_NUITKA_STANDALONE -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=152 -D_NUITKA_EXE -D_NUITKA_PLUGIN_MULTIPROCESSING_ENABLED=1 -I/usr/include/python3.9 -I. -I/home/link/.local/lib/python3.9/site-packages/nuitka/build/include -I/home/link/.local/lib/python3.9/site-packages/nuitka/build/static_src module.__main__.c
+[2022-09-28T22:36:31.335218 74639] Hostname: poopos
+[2022-09-28T22:36:31.335222 74639] Working directory: /home/link/PySharpGTK/gui.build
+[2022-09-28T22:36:31.335225 74639] Compiler type: gcc
+[2022-09-28T22:36:31.335276 74639] Source file: module.__main__.c
+[2022-09-28T22:36:31.335281 74639] Object file: module.__main__.o
+[2022-09-28T22:36:31.335289 74639] Trying direct lookup
+[2022-09-28T22:36:31.335808 74639] No manifest with name 4283oumg1gjeqnt8a6j00h48kqrr50op0 in the cache
+[2022-09-28T22:36:31.335847 74639] Running preprocessor
+[2022-09-28T22:36:31.335854 74639] Executing /usr/bin/gcc -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -D_NUITKA_STANDALONE -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=152 -D_NUITKA_EXE -D_NUITKA_PLUGIN_MULTIPROCESSING_ENABLED=1 -I/usr/include/python3.9 -I. -I/home/link/.local/lib/python3.9/site-packages/nuitka/build/include -I/home/link/.local/lib/python3.9/site-packages/nuitka/build/static_src -E module.__main__.c
+[2022-09-28T22:36:31.345557 74644] === CCACHE 4.2.1 STARTED =========================================
+[2022-09-28T22:36:31.345557 74644] Config: (default) absolute_paths_in_stderr = false
+[2022-09-28T22:36:31.345557 74644] Config: (default) base_dir = 
+[2022-09-28T22:36:31.345557 74644] Config: (environment) cache_dir = /home/link/.cache/Nuitka/ccache
+[2022-09-28T22:36:31.345557 74644] Config: (default) compiler = 
+[2022-09-28T22:36:31.345557 74644] Config: (default) compiler_check = mtime
+[2022-09-28T22:36:31.345557 74644] Config: (default) compiler_type = auto
+[2022-09-28T22:36:31.345557 74644] Config: (default) compression = true
+[2022-09-28T22:36:31.345557 74644] Config: (default) compression_level = 0
+[2022-09-28T22:36:31.345557 74644] Config: (default) cpp_extension = 
+[2022-09-28T22:36:31.345557 74644] Config: (default) debug = false
+[2022-09-28T22:36:31.345557 74644] Config: (default) debug_dir = 
+[2022-09-28T22:36:31.345557 74644] Config: (default) depend_mode = false
+[2022-09-28T22:36:31.345557 74644] Config: (default) direct_mode = true
+[2022-09-28T22:36:31.345557 74644] Config: (default) disable = false
+[2022-09-28T22:36:31.345557 74644] Config: (default) extra_files_to_hash = 
+[2022-09-28T22:36:31.345557 74644] Config: (default) file_clone = false
+[2022-09-28T22:36:31.345557 74644] Config: (default) hard_link = false
+[2022-09-28T22:36:31.345557 74644] Config: (default) hash_dir = true
+[2022-09-28T22:36:31.345557 74644] Config: (default) ignore_headers_in_manifest = 
+[2022-09-28T22:36:31.345557 74644] Config: (default) ignore_options = 
+[2022-09-28T22:36:31.345557 74644] Config: (default) inode_cache = false
+[2022-09-28T22:36:31.345557 74644] Config: (default) keep_comments_cpp = false
+[2022-09-28T22:36:31.345557 74644] Config: (default) limit_multiple = 0.8
+[2022-09-28T22:36:31.345557 74644] Config: (environment) log_file = /home/link/PySharpGTK/gui.build/ccache-74613.txt
+[2022-09-28T22:36:31.345557 74644] Config: (default) max_files = 0
+[2022-09-28T22:36:31.345557 74644] Config: (default) max_size = 5.0G
+[2022-09-28T22:36:31.345557 74644] Config: (default) path = 
+[2022-09-28T22:36:31.345557 74644] Config: (default) pch_external_checksum = false
+[2022-09-28T22:36:31.345557 74644] Config: (default) prefix_command = 
+[2022-09-28T22:36:31.345557 74644] Config: (default) prefix_command_cpp = 
+[2022-09-28T22:36:31.345557 74644] Config: (default) read_only = false
+[2022-09-28T22:36:31.345557 74644] Config: (default) read_only_direct = false
+[2022-09-28T22:36:31.345557 74644] Config: (default) recache = false
+[2022-09-28T22:36:31.345557 74644] Config: (default) run_second_cpp = true
+[2022-09-28T22:36:31.345557 74644] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2022-09-28T22:36:31.345557 74644] Config: (default) stats = true
+[2022-09-28T22:36:31.345557 74644] Config: (default) temporary_dir = /run/user/1000/ccache-tmp
+[2022-09-28T22:36:31.345557 74644] Config: (default) umask = 
+[2022-09-28T22:36:31.345606 74644] Command line: /usr/bin/ccache /usr/bin/gcc -o module.__parents_main__.o -c -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -D_NUITKA_STANDALONE -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=152 -D_NUITKA_EXE -D_NUITKA_PLUGIN_MULTIPROCESSING_ENABLED=1 -I/usr/include/python3.9 -I. -I/home/link/.local/lib/python3.9/site-packages/nuitka/build/include -I/home/link/.local/lib/python3.9/site-packages/nuitka/build/static_src module.__parents_main__.c
+[2022-09-28T22:36:31.345617 74644] Hostname: poopos
+[2022-09-28T22:36:31.345620 74644] Working directory: /home/link/PySharpGTK/gui.build
+[2022-09-28T22:36:31.345623 74644] Compiler type: gcc
+[2022-09-28T22:36:31.345677 74644] Source file: module.__parents_main__.c
+[2022-09-28T22:36:31.345683 74644] Object file: module.__parents_main__.o
+[2022-09-28T22:36:31.345692 74644] Trying direct lookup
+[2022-09-28T22:36:31.346146 74644] No manifest with name b40cpm71315c81omtmmkud685u04u7nc4 in the cache
+[2022-09-28T22:36:31.346188 74644] Running preprocessor
+[2022-09-28T22:36:31.346195 74644] Executing /usr/bin/gcc -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -D_NUITKA_STANDALONE -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=152 -D_NUITKA_EXE -D_NUITKA_PLUGIN_MULTIPROCESSING_ENABLED=1 -I/usr/include/python3.9 -I. -I/home/link/.local/lib/python3.9/site-packages/nuitka/build/include -I/home/link/.local/lib/python3.9/site-packages/nuitka/build/static_src -E module.__parents_main__.c
+[2022-09-28T22:36:31.348973 74648] === CCACHE 4.2.1 STARTED =========================================
+[2022-09-28T22:36:31.348973 74648] Config: (default) absolute_paths_in_stderr = false
+[2022-09-28T22:36:31.348973 74648] Config: (default) base_dir = 
+[2022-09-28T22:36:31.348973 74648] Config: (environment) cache_dir = /home/link/.cache/Nuitka/ccache
+[2022-09-28T22:36:31.348973 74648] Config: (default) compiler = 
+[2022-09-28T22:36:31.348973 74648] Config: (default) compiler_check = mtime
+[2022-09-28T22:36:31.348973 74648] Config: (default) compiler_type = auto
+[2022-09-28T22:36:31.348973 74648] Config: (default) compression = true
+[2022-09-28T22:36:31.348973 74648] Config: (default) compression_level = 0
+[2022-09-28T22:36:31.348973 74648] Config: (default) cpp_extension = 
+[2022-09-28T22:36:31.348973 74648] Config: (default) debug = false
+[2022-09-28T22:36:31.348973 74648] Config: (default) debug_dir = 
+[2022-09-28T22:36:31.348973 74648] Config: (default) depend_mode = false
+[2022-09-28T22:36:31.348973 74648] Config: (default) direct_mode = true
+[2022-09-28T22:36:31.348973 74648] Config: (default) disable = false
+[2022-09-28T22:36:31.348973 74648] Config: (default) extra_files_to_hash = 
+[2022-09-28T22:36:31.348973 74648] Config: (default) file_clone = false
+[2022-09-28T22:36:31.348973 74648] Config: (default) hard_link = false
+[2022-09-28T22:36:31.348973 74648] Config: (default) hash_dir = true
+[2022-09-28T22:36:31.348973 74648] Config: (default) ignore_headers_in_manifest = 
+[2022-09-28T22:36:31.348973 74648] Config: (default) ignore_options = 
+[2022-09-28T22:36:31.348973 74648] Config: (default) inode_cache = false
+[2022-09-28T22:36:31.348973 74648] Config: (default) keep_comments_cpp = false
+[2022-09-28T22:36:31.348973 74648] Config: (default) limit_multiple = 0.8
+[2022-09-28T22:36:31.348973 74648] Config: (environment) log_file = /home/link/PySharpGTK/gui.build/ccache-74613.txt
+[2022-09-28T22:36:31.348973 74648] Config: (default) max_files = 0
+[2022-09-28T22:36:31.348973 74648] Config: (default) max_size = 5.0G
+[2022-09-28T22:36:31.348973 74648] Config: (default) path = 
+[2022-09-28T22:36:31.348973 74648] Config: (default) pch_external_checksum = false
+[2022-09-28T22:36:31.348973 74648] Config: (default) prefix_command = 
+[2022-09-28T22:36:31.348973 74648] Config: (default) prefix_command_cpp = 
+[2022-09-28T22:36:31.348973 74648] Config: (default) read_only = false
+[2022-09-28T22:36:31.348973 74648] Config: (default) read_only_direct = false
+[2022-09-28T22:36:31.348973 74648] Config: (default) recache = false
+[2022-09-28T22:36:31.348973 74648] Config: (default) run_second_cpp = true
+[2022-09-28T22:36:31.348973 74648] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2022-09-28T22:36:31.348973 74648] Config: (default) stats = true
+[2022-09-28T22:36:31.348973 74648] Config: (default) temporary_dir = /run/user/1000/ccache-tmp
+[2022-09-28T22:36:31.348973 74648] Config: (default) umask = 
+[2022-09-28T22:36:31.349019 74648] Command line: /usr/bin/ccache /usr/bin/gcc -o module.gi-preLoad.o -c -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -D_NUITKA_STANDALONE -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=152 -D_NUITKA_EXE -D_NUITKA_PLUGIN_MULTIPROCESSING_ENABLED=1 -I/usr/include/python3.9 -I. -I/home/link/.local/lib/python3.9/site-packages/nuitka/build/include -I/home/link/.local/lib/python3.9/site-packages/nuitka/build/static_src module.gi-preLoad.c
+[2022-09-28T22:36:31.349026 74648] Hostname: poopos
+[2022-09-28T22:36:31.349030 74648] Working directory: /home/link/PySharpGTK/gui.build
+[2022-09-28T22:36:31.349038 74648] Compiler type: gcc
+[2022-09-28T22:36:31.349091 74648] Source file: module.gi-preLoad.c
+[2022-09-28T22:36:31.349097 74648] Object file: module.gi-preLoad.o
+[2022-09-28T22:36:31.349105 74648] Trying direct lookup
+[2022-09-28T22:36:31.349152 74648] Looking for result name in /home/link/.cache/Nuitka/ccache/f/0/e5llmkc21cmn62vjkhn0ami7o2d4jp4M
+[2022-09-28T22:36:31.351564 74648] Got result name from manifest
+[2022-09-28T22:36:31.351578 74648] Reading result /home/link/.cache/Nuitka/ccache/f/7/f84euhs594nb8kt41no5k7nmdbblbg4R
+[2022-09-28T22:36:31.351644 74648] Reading embedded entry #0 .o (48800 bytes)
+[2022-09-28T22:36:31.351651 74648] Writing to module.gi-preLoad.o
+[2022-09-28T22:36:31.351715 74648] Succeeded getting cached result
+[2022-09-28T22:36:31.351723 74648] Result: cache hit (direct)
+[2022-09-28T22:36:31.351767 74648] Acquired lock /home/link/.cache/Nuitka/ccache/f/7/stats.lock
+[2022-09-28T22:36:31.351875 74648] Releasing lock /home/link/.cache/Nuitka/ccache/f/7/stats.lock
+[2022-09-28T22:36:31.351893 74648] Unlink /home/link/.cache/Nuitka/ccache/f/7/stats.lock
+[2022-09-28T22:36:31.354654 74652] === CCACHE 4.2.1 STARTED =========================================
+[2022-09-28T22:36:31.354654 74652] Config: (default) absolute_paths_in_stderr = false
+[2022-09-28T22:36:31.354654 74652] Config: (default) base_dir = 
+[2022-09-28T22:36:31.354654 74652] Config: (environment) cache_dir = /home/link/.cache/Nuitka/ccache
+[2022-09-28T22:36:31.354654 74652] Config: (default) compiler = 
+[2022-09-28T22:36:31.354654 74652] Config: (default) compiler_check = mtime
+[2022-09-28T22:36:31.354654 74652] Config: (default) compiler_type = auto
+[2022-09-28T22:36:31.354654 74652] Config: (default) compression = true
+[2022-09-28T22:36:31.354654 74652] Config: (default) compression_level = 0
+[2022-09-28T22:36:31.354654 74652] Config: (default) cpp_extension = 
+[2022-09-28T22:36:31.354654 74652] Config: (default) debug = false
+[2022-09-28T22:36:31.354654 74652] Config: (default) debug_dir = 
+[2022-09-28T22:36:31.354654 74652] Config: (default) depend_mode = false
+[2022-09-28T22:36:31.354654 74652] Config: (default) direct_mode = true
+[2022-09-28T22:36:31.354654 74652] Config: (default) disable = false
+[2022-09-28T22:36:31.354654 74652] Config: (default) extra_files_to_hash = 
+[2022-09-28T22:36:31.354654 74652] Config: (default) file_clone = false
+[2022-09-28T22:36:31.354654 74652] Config: (default) hard_link = false
+[2022-09-28T22:36:31.354654 74652] Config: (default) hash_dir = true
+[2022-09-28T22:36:31.354654 74652] Config: (default) ignore_headers_in_manifest = 
+[2022-09-28T22:36:31.354654 74652] Config: (default) ignore_options = 
+[2022-09-28T22:36:31.354654 74652] Config: (default) inode_cache = false
+[2022-09-28T22:36:31.354654 74652] Config: (default) keep_comments_cpp = false
+[2022-09-28T22:36:31.354654 74652] Config: (default) limit_multiple = 0.8
+[2022-09-28T22:36:31.354654 74652] Config: (environment) log_file = /home/link/PySharpGTK/gui.build/ccache-74613.txt
+[2022-09-28T22:36:31.354654 74652] Config: (default) max_files = 0
+[2022-09-28T22:36:31.354654 74652] Config: (default) max_size = 5.0G
+[2022-09-28T22:36:31.354654 74652] Config: (default) path = 
+[2022-09-28T22:36:31.354654 74652] Config: (default) pch_external_checksum = false
+[2022-09-28T22:36:31.354654 74652] Config: (default) prefix_command = 
+[2022-09-28T22:36:31.354654 74652] Config: (default) prefix_command_cpp = 
+[2022-09-28T22:36:31.354654 74652] Config: (default) read_only = false
+[2022-09-28T22:36:31.354654 74652] Config: (default) read_only_direct = false
+[2022-09-28T22:36:31.354654 74652] Config: (default) recache = false
+[2022-09-28T22:36:31.354654 74652] Config: (default) run_second_cpp = true
+[2022-09-28T22:36:31.354654 74652] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2022-09-28T22:36:31.354654 74652] Config: (default) stats = true
+[2022-09-28T22:36:31.354654 74652] Config: (default) temporary_dir = /run/user/1000/ccache-tmp
+[2022-09-28T22:36:31.354654 74652] Config: (default) umask = 
+[2022-09-28T22:36:31.354727 74652] Command line: /usr/bin/ccache /usr/bin/gcc -o module.gi._constants.o -c -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -D_NUITKA_STANDALONE -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=152 -D_NUITKA_EXE -D_NUITKA_PLUGIN_MULTIPROCESSING_ENABLED=1 -I/usr/include/python3.9 -I. -I/home/link/.local/lib/python3.9/site-packages/nuitka/build/include -I/home/link/.local/lib/python3.9/site-packages/nuitka/build/static_src module.gi._constants.c
+[2022-09-28T22:36:31.354742 74652] Hostname: poopos
+[2022-09-28T22:36:31.354747 74652] Working directory: /home/link/PySharpGTK/gui.build
+[2022-09-28T22:36:31.354751 74652] Compiler type: gcc
+[2022-09-28T22:36:31.354853 74652] Source file: module.gi._constants.c
+[2022-09-28T22:36:31.354861 74652] Object file: module.gi._constants.o
+[2022-09-28T22:36:31.354873 74652] Trying direct lookup
+[2022-09-28T22:36:31.354981 74652] Looking for result name in /home/link/.cache/Nuitka/ccache/1/d/f2dsrf7vmc4fkf0ma4bmehp3mstfhv0M
+[2022-09-28T22:36:31.357454 74652] Got result name from manifest
+[2022-09-28T22:36:31.357465 74652] Reading result /home/link/.cache/Nuitka/ccache/1/7/2crktliho3tr886581eubobm1q8f8amR
+[2022-09-28T22:36:31.357527 74652] Reading embedded entry #0 .o (55456 bytes)
+[2022-09-28T22:36:31.357533 74652] Writing to module.gi._constants.o
+[2022-09-28T22:36:31.357594 74652] Succeeded getting cached result
+[2022-09-28T22:36:31.357601 74652] Result: cache hit (direct)
+[2022-09-28T22:36:31.357630 74652] Acquired lock /home/link/.cache/Nuitka/ccache/1/7/stats.lock
+[2022-09-28T22:36:31.357724 74652] Releasing lock /home/link/.cache/Nuitka/ccache/1/7/stats.lock
+[2022-09-28T22:36:31.357743 74652] Unlink /home/link/.cache/Nuitka/ccache/1/7/stats.lock
+[2022-09-28T22:36:31.361349 74655] === CCACHE 4.2.1 STARTED =========================================
+[2022-09-28T22:36:31.361349 74655] Config: (default) absolute_paths_in_stderr = false
+[2022-09-28T22:36:31.361349 74655] Config: (default) base_dir = 
+[2022-09-28T22:36:31.361349 74655] Config: (environment) cache_dir = /home/link/.cache/Nuitka/ccache
+[2022-09-28T22:36:31.361349 74655] Config: (default) compiler = 
+[2022-09-28T22:36:31.361349 74655] Config: (default) compiler_check = mtime
+[2022-09-28T22:36:31.361349 74655] Config: (default) compiler_type = auto
+[2022-09-28T22:36:31.361349 74655] Config: (default) compression = true
+[2022-09-28T22:36:31.361349 74655] Config: (default) compression_level = 0
+[2022-09-28T22:36:31.361349 74655] Config: (default) cpp_extension = 
+[2022-09-28T22:36:31.361349 74655] Config: (default) debug = false
+[2022-09-28T22:36:31.361349 74655] Config: (default) debug_dir = 
+[2022-09-28T22:36:31.361349 74655] Config: (default) depend_mode = false
+[2022-09-28T22:36:31.361349 74655] Config: (default) direct_mode = true
+[2022-09-28T22:36:31.361349 74655] Config: (default) disable = false
+[2022-09-28T22:36:31.361349 74655] Config: (default) extra_files_to_hash = 
+[2022-09-28T22:36:31.361349 74655] Config: (default) file_clone = false
+[2022-09-28T22:36:31.361349 74655] Config: (default) hard_link = false
+[2022-09-28T22:36:31.361349 74655] Config: (default) hash_dir = true
+[2022-09-28T22:36:31.361349 74655] Config: (default) ignore_headers_in_manifest = 
+[2022-09-28T22:36:31.361349 74655] Config: (default) ignore_options = 
+[2022-09-28T22:36:31.361349 74655] Config: (default) inode_cache = false
+[2022-09-28T22:36:31.361349 74655] Config: (default) keep_comments_cpp = false
+[2022-09-28T22:36:31.361349 74655] Config: (default) limit_multiple = 0.8
+[2022-09-28T22:36:31.361349 74655] Config: (environment) log_file = /home/link/PySharpGTK/gui.build/ccache-74613.txt
+[2022-09-28T22:36:31.361349 74655] Config: (default) max_files = 0
+[2022-09-28T22:36:31.361349 74655] Config: (default) max_size = 5.0G
+[2022-09-28T22:36:31.361349 74655] Config: (default) path = 
+[2022-09-28T22:36:31.361349 74655] Config: (default) pch_external_checksum = false
+[2022-09-28T22:36:31.361349 74655] Config: (default) prefix_command = 
+[2022-09-28T22:36:31.361349 74655] Config: (default) prefix_command_cpp = 
+[2022-09-28T22:36:31.361349 74655] Config: (default) read_only = false
+[2022-09-28T22:36:31.361349 74655] Config: (default) read_only_direct = false
+[2022-09-28T22:36:31.361349 74655] Config: (default) recache = false
+[2022-09-28T22:36:31.361349 74655] Config: (default) run_second_cpp = true
+[2022-09-28T22:36:31.361349 74655] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2022-09-28T22:36:31.361349 74655] Config: (default) stats = true
+[2022-09-28T22:36:31.361349 74655] Config: (default) temporary_dir = /run/user/1000/ccache-tmp
+[2022-09-28T22:36:31.361349 74655] Config: (default) umask = 
+[2022-09-28T22:36:31.361396 74655] Command line: /usr/bin/ccache /usr/bin/gcc -o module.gi._error.o -c -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -D_NUITKA_STANDALONE -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=152 -D_NUITKA_EXE -D_NUITKA_PLUGIN_MULTIPROCESSING_ENABLED=1 -I/usr/include/python3.9 -I. -I/home/link/.local/lib/python3.9/site-packages/nuitka/build/include -I/home/link/.local/lib/python3.9/site-packages/nuitka/build/static_src module.gi._error.c
+[2022-09-28T22:36:31.361409 74655] Hostname: poopos
+[2022-09-28T22:36:31.361412 74655] Working directory: /home/link/PySharpGTK/gui.build
+[2022-09-28T22:36:31.361416 74655] Compiler type: gcc
+[2022-09-28T22:36:31.361470 74655] Source file: module.gi._error.c
+[2022-09-28T22:36:31.361476 74655] Object file: module.gi._error.o
+[2022-09-28T22:36:31.361484 74655] Trying direct lookup
+[2022-09-28T22:36:31.361572 74655] Looking for result name in /home/link/.cache/Nuitka/ccache/6/5/69ogv4euk5k57143ifcntdhdcnk3j2iM
+[2022-09-28T22:36:31.363847 74655] Got result name from manifest
+[2022-09-28T22:36:31.363860 74655] Reading result /home/link/.cache/Nuitka/ccache/a/d/36c82ou3tun5t2t20ngrv3drcudggdmR
+[2022-09-28T22:36:31.363971 74655] Reading embedded entry #0 .o (102400 bytes)
+[2022-09-28T22:36:31.363978 74655] Writing to module.gi._error.o
+[2022-09-28T22:36:31.364075 74655] Succeeded getting cached result
+[2022-09-28T22:36:31.364082 74655] Result: cache hit (direct)
+[2022-09-28T22:36:31.364125 74655] Acquired lock /home/link/.cache/Nuitka/ccache/a/d/stats.lock
+[2022-09-28T22:36:31.364233 74655] Releasing lock /home/link/.cache/Nuitka/ccache/a/d/stats.lock
+[2022-09-28T22:36:31.364252 74655] Unlink /home/link/.cache/Nuitka/ccache/a/d/stats.lock
+[2022-09-28T22:36:31.375136 74658] === CCACHE 4.2.1 STARTED =========================================
+[2022-09-28T22:36:31.375136 74658] Config: (default) absolute_paths_in_stderr = false
+[2022-09-28T22:36:31.375136 74658] Config: (default) base_dir = 
+[2022-09-28T22:36:31.375136 74658] Config: (environment) cache_dir = /home/link/.cache/Nuitka/ccache
+[2022-09-28T22:36:31.375136 74658] Config: (default) compiler = 
+[2022-09-28T22:36:31.375136 74658] Config: (default) compiler_check = mtime
+[2022-09-28T22:36:31.375136 74658] Config: (default) compiler_type = auto
+[2022-09-28T22:36:31.375136 74658] Config: (default) compression = true
+[2022-09-28T22:36:31.375136 74658] Config: (default) compression_level = 0
+[2022-09-28T22:36:31.375136 74658] Config: (default) cpp_extension = 
+[2022-09-28T22:36:31.375136 74658] Config: (default) debug = false
+[2022-09-28T22:36:31.375136 74658] Config: (default) debug_dir = 
+[2022-09-28T22:36:31.375136 74658] Config: (default) depend_mode = false
+[2022-09-28T22:36:31.375136 74658] Config: (default) direct_mode = true
+[2022-09-28T22:36:31.375136 74658] Config: (default) disable = false
+[2022-09-28T22:36:31.375136 74658] Config: (default) extra_files_to_hash = 
+[2022-09-28T22:36:31.375136 74658] Config: (default) file_clone = false
+[2022-09-28T22:36:31.375136 74658] Config: (default) hard_link = false
+[2022-09-28T22:36:31.375136 74658] Config: (default) hash_dir = true
+[2022-09-28T22:36:31.375136 74658] Config: (default) ignore_headers_in_manifest = 
+[2022-09-28T22:36:31.375136 74658] Config: (default) ignore_options = 
+[2022-09-28T22:36:31.375136 74658] Config: (default) inode_cache = false
+[2022-09-28T22:36:31.375136 74658] Config: (default) keep_comments_cpp = false
+[2022-09-28T22:36:31.375136 74658] Config: (default) limit_multiple = 0.8
+[2022-09-28T22:36:31.375136 74658] Config: (environment) log_file = /home/link/PySharpGTK/gui.build/ccache-74613.txt
+[2022-09-28T22:36:31.375136 74658] Config: (default) max_files = 0
+[2022-09-28T22:36:31.375136 74658] Config: (default) max_size = 5.0G
+[2022-09-28T22:36:31.375136 74658] Config: (default) path = 
+[2022-09-28T22:36:31.375136 74658] Config: (default) pch_external_checksum = false
+[2022-09-28T22:36:31.375136 74658] Config: (default) prefix_command = 
+[2022-09-28T22:36:31.375136 74658] Config: (default) prefix_command_cpp = 
+[2022-09-28T22:36:31.375136 74658] Config: (default) read_only = false
+[2022-09-28T22:36:31.375136 74658] Config: (default) read_only_direct = false
+[2022-09-28T22:36:31.375136 74658] Config: (default) recache = false
+[2022-09-28T22:36:31.375136 74658] Config: (default) run_second_cpp = true
+[2022-09-28T22:36:31.375136 74658] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2022-09-28T22:36:31.375136 74658] Config: (default) stats = true
+[2022-09-28T22:36:31.375136 74658] Config: (default) temporary_dir = /run/user/1000/ccache-tmp
+[2022-09-28T22:36:31.375136 74658] Config: (default) umask = 
+[2022-09-28T22:36:31.375195 74658] Command line: /usr/bin/ccache /usr/bin/gcc -o module.gi._gtktemplate.o -c -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -D_NUITKA_STANDALONE -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=152 -D_NUITKA_EXE -D_NUITKA_PLUGIN_MULTIPROCESSING_ENABLED=1 -I/usr/include/python3.9 -I. -I/home/link/.local/lib/python3.9/site-packages/nuitka/build/include -I/home/link/.local/lib/python3.9/site-packages/nuitka/build/static_src module.gi._gtktemplate.c
+[2022-09-28T22:36:31.375207 74658] Hostname: poopos
+[2022-09-28T22:36:31.375211 74658] Working directory: /home/link/PySharpGTK/gui.build
+[2022-09-28T22:36:31.375214 74658] Compiler type: gcc
+[2022-09-28T22:36:31.375278 74658] Source file: module.gi._gtktemplate.c
+[2022-09-28T22:36:31.375284 74658] Object file: module.gi._gtktemplate.o
+[2022-09-28T22:36:31.375293 74658] Trying direct lookup
+[2022-09-28T22:36:31.375786 74658] Looking for result name in /home/link/.cache/Nuitka/ccache/6/2/95cdgjd0ojsomt4l2453j0fctol4sjeM
+[2022-09-28T22:36:31.378242 74658] Got result name from manifest
+[2022-09-28T22:36:31.378257 74658] Reading result /home/link/.cache/Nuitka/ccache/f/f/3bla33ipqujtf0vnap2ldu5vtq0aqokR
+[2022-09-28T22:36:31.378335 74658] Reading embedded entry #0 .o (305016 bytes)
+[2022-09-28T22:36:31.378342 74658] Writing to module.gi._gtktemplate.o
+[2022-09-28T22:36:31.378849 74658] Succeeded getting cached result
+[2022-09-28T22:36:31.378856 74658] Result: cache hit (direct)
+[2022-09-28T22:36:31.378897 74658] Acquired lock /home/link/.cache/Nuitka/ccache/f/f/stats.lock
+[2022-09-28T22:36:31.379000 74658] Releasing lock /home/link/.cache/Nuitka/ccache/f/f/stats.lock
+[2022-09-28T22:36:31.379019 74658] Unlink /home/link/.cache/Nuitka/ccache/f/f/stats.lock
+[2022-09-28T22:36:31.383801 74639] Got result name from preprocessor
+[2022-09-28T22:36:31.383827 74639] No result with name ed64dte14oifb57k91u0kfb57dequ7e64 in the cache
+[2022-09-28T22:36:31.383833 74639] Running real compiler
+[2022-09-28T22:36:31.383855 74639] Executing /usr/bin/gcc -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -D_NUITKA_STANDALONE -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=152 -D_NUITKA_EXE -D_NUITKA_PLUGIN_MULTIPROCESSING_ENABLED=1 -I/usr/include/python3.9 -I. -I/home/link/.local/lib/python3.9/site-packages/nuitka/build/include -I/home/link/.local/lib/python3.9/site-packages/nuitka/build/static_src -c -fdiagnostics-color -o module.__main__.o module.__main__.c
+[2022-09-28T22:36:31.389474 74664] === CCACHE 4.2.1 STARTED =========================================
+[2022-09-28T22:36:31.389474 74664] Config: (default) absolute_paths_in_stderr = false
+[2022-09-28T22:36:31.389474 74664] Config: (default) base_dir = 
+[2022-09-28T22:36:31.389474 74664] Config: (environment) cache_dir = /home/link/.cache/Nuitka/ccache
+[2022-09-28T22:36:31.389474 74664] Config: (default) compiler = 
+[2022-09-28T22:36:31.389474 74664] Config: (default) compiler_check = mtime
+[2022-09-28T22:36:31.389474 74664] Config: (default) compiler_type = auto
+[2022-09-28T22:36:31.389474 74664] Config: (default) compression = true
+[2022-09-28T22:36:31.389474 74664] Config: (default) compression_level = 0
+[2022-09-28T22:36:31.389474 74664] Config: (default) cpp_extension = 
+[2022-09-28T22:36:31.389474 74664] Config: (default) debug = false
+[2022-09-28T22:36:31.389474 74664] Config: (default) debug_dir = 
+[2022-09-28T22:36:31.389474 74664] Config: (default) depend_mode = false
+[2022-09-28T22:36:31.389474 74664] Config: (default) direct_mode = true
+[2022-09-28T22:36:31.389474 74664] Config: (default) disable = false
+[2022-09-28T22:36:31.389474 74664] Config: (default) extra_files_to_hash = 
+[2022-09-28T22:36:31.389474 74664] Config: (default) file_clone = false
+[2022-09-28T22:36:31.389474 74664] Config: (default) hard_link = false
+[2022-09-28T22:36:31.389474 74664] Config: (default) hash_dir = true
+[2022-09-28T22:36:31.389474 74664] Config: (default) ignore_headers_in_manifest = 
+[2022-09-28T22:36:31.389474 74664] Config: (default) ignore_options = 
+[2022-09-28T22:36:31.389474 74664] Config: (default) inode_cache = false
+[2022-09-28T22:36:31.389474 74664] Config: (default) keep_comments_cpp = false
+[2022-09-28T22:36:31.389474 74664] Config: (default) limit_multiple = 0.8
+[2022-09-28T22:36:31.389474 74664] Config: (environment) log_file = /home/link/PySharpGTK/gui.build/ccache-74613.txt
+[2022-09-28T22:36:31.389474 74664] Config: (default) max_files = 0
+[2022-09-28T22:36:31.389474 74664] Config: (default) max_size = 5.0G
+[2022-09-28T22:36:31.389474 74664] Config: (default) path = 
+[2022-09-28T22:36:31.389474 74664] Config: (default) pch_external_checksum = false
+[2022-09-28T22:36:31.389474 74664] Config: (default) prefix_command = 
+[2022-09-28T22:36:31.389474 74664] Config: (default) prefix_command_cpp = 
+[2022-09-28T22:36:31.389474 74664] Config: (default) read_only = false
+[2022-09-28T22:36:31.389474 74664] Config: (default) read_only_direct = false
+[2022-09-28T22:36:31.389474 74664] Config: (default) recache = false
+[2022-09-28T22:36:31.389474 74664] Config: (default) run_second_cpp = true
+[2022-09-28T22:36:31.389474 74664] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2022-09-28T22:36:31.389474 74664] Config: (default) stats = true
+[2022-09-28T22:36:31.389474 74664] Config: (default) temporary_dir = /run/user/1000/ccache-tmp
+[2022-09-28T22:36:31.389474 74664] Config: (default) umask = 
+[2022-09-28T22:36:31.389710 74664] Command line: /usr/bin/ccache /usr/bin/gcc -o module.gi._option.o -c -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -D_NUITKA_STANDALONE -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=152 -D_NUITKA_EXE -D_NUITKA_PLUGIN_MULTIPROCESSING_ENABLED=1 -I/usr/include/python3.9 -I. -I/home/link/.local/lib/python3.9/site-packages/nuitka/build/include -I/home/link/.local/lib/python3.9/site-packages/nuitka/build/static_src module.gi._option.c
+[2022-09-28T22:36:31.389726 74664] Hostname: poopos
+[2022-09-28T22:36:31.389730 74664] Working directory: /home/link/PySharpGTK/gui.build
+[2022-09-28T22:36:31.389733 74664] Compiler type: gcc
+[2022-09-28T22:36:31.389788 74664] Source file: module.gi._option.c
+[2022-09-28T22:36:31.389792 74664] Object file: module.gi._option.o
+[2022-09-28T22:36:31.389801 74664] Trying direct lookup
+[2022-09-28T22:36:31.390360 74664] Looking for result name in /home/link/.cache/Nuitka/ccache/7/6/b9kbmcavcuhmsqs5sjsl0ovhj6ivl2mM
+[2022-09-28T22:36:31.392584 74664] Got result name from manifest
+[2022-09-28T22:36:31.392596 74664] Reading result /home/link/.cache/Nuitka/ccache/8/e/b9qga6rk7j7b3kuk2apb8rumkh67mouR
+[2022-09-28T22:36:31.392668 74664] Reading embedded entry #0 .o (325320 bytes)
+[2022-09-28T22:36:31.392674 74664] Writing to module.gi._option.o
+[2022-09-28T22:36:31.393053 74664] Succeeded getting cached result
+[2022-09-28T22:36:31.393060 74664] Result: cache hit (direct)
+[2022-09-28T22:36:31.393103 74664] Acquired lock /home/link/.cache/Nuitka/ccache/8/e/stats.lock
+[2022-09-28T22:36:31.393205 74664] Releasing lock /home/link/.cache/Nuitka/ccache/8/e/stats.lock
+[2022-09-28T22:36:31.393223 74664] Unlink /home/link/.cache/Nuitka/ccache/8/e/stats.lock
+[2022-09-28T22:36:31.393240 74667] === CCACHE 4.2.1 STARTED =========================================
+[2022-09-28T22:36:31.393240 74667] Config: (default) absolute_paths_in_stderr = false
+[2022-09-28T22:36:31.393240 74667] Config: (default) base_dir = 
+[2022-09-28T22:36:31.393240 74667] Config: (environment) cache_dir = /home/link/.cache/Nuitka/ccache
+[2022-09-28T22:36:31.393240 74667] Config: (default) compiler = 
+[2022-09-28T22:36:31.393240 74667] Config: (default) compiler_check = mtime
+[2022-09-28T22:36:31.393240 74667] Config: (default) compiler_type = auto
+[2022-09-28T22:36:31.393240 74667] Config: (default) compression = true
+[2022-09-28T22:36:31.393240 74667] Config: (default) compression_level = 0
+[2022-09-28T22:36:31.393240 74667] Config: (default) cpp_extension = 
+[2022-09-28T22:36:31.393240 74667] Config: (default) debug = false
+[2022-09-28T22:36:31.393240 74667] Config: (default) debug_dir = 
+[2022-09-28T22:36:31.393240 74667] Config: (default) depend_mode = false
+[2022-09-28T22:36:31.393240 74667] Config: (default) direct_mode = true
+[2022-09-28T22:36:31.393240 74667] Config: (default) disable = false
+[2022-09-28T22:36:31.393240 74667] Config: (default) extra_files_to_hash = 
+[2022-09-28T22:36:31.393240 74667] Config: (default) file_clone = false
+[2022-09-28T22:36:31.393240 74667] Config: (default) hard_link = false
+[2022-09-28T22:36:31.393240 74667] Config: (default) hash_dir = true
+[2022-09-28T22:36:31.393240 74667] Config: (default) ignore_headers_in_manifest = 
+[2022-09-28T22:36:31.393240 74667] Config: (default) ignore_options = 
+[2022-09-28T22:36:31.393240 74667] Config: (default) inode_cache = false
+[2022-09-28T22:36:31.393240 74667] Config: (default) keep_comments_cpp = false
+[2022-09-28T22:36:31.393240 74667] Config: (default) limit_multiple = 0.8
+[2022-09-28T22:36:31.393240 74667] Config: (environment) log_file = /home/link/PySharpGTK/gui.build/ccache-74613.txt
+[2022-09-28T22:36:31.393240 74667] Config: (default) max_files = 0
+[2022-09-28T22:36:31.393240 74667] Config: (default) max_size = 5.0G
+[2022-09-28T22:36:31.393240 74667] Config: (default) path = 
+[2022-09-28T22:36:31.393240 74667] Config: (default) pch_external_checksum = false
+[2022-09-28T22:36:31.393240 74667] Config: (default) prefix_command = 
+[2022-09-28T22:36:31.393240 74667] Config: (default) prefix_command_cpp = 
+[2022-09-28T22:36:31.393240 74667] Config: (default) read_only = false
+[2022-09-28T22:36:31.393240 74667] Config: (default) read_only_direct = false
+[2022-09-28T22:36:31.393240 74667] Config: (default) recache = false
+[2022-09-28T22:36:31.393240 74667] Config: (default) run_second_cpp = true
+[2022-09-28T22:36:31.393240 74667] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2022-09-28T22:36:31.393240 74667] Config: (default) stats = true
+[2022-09-28T22:36:31.393240 74667] Config: (default) temporary_dir = /run/user/1000/ccache-tmp
+[2022-09-28T22:36:31.393240 74667] Config: (default) umask = 
+[2022-09-28T22:36:31.393283 74667] Command line: /usr/bin/ccache /usr/bin/gcc -o module.gi._ossighelper.o -c -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -D_NUITKA_STANDALONE -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=152 -D_NUITKA_EXE -D_NUITKA_PLUGIN_MULTIPROCESSING_ENABLED=1 -I/usr/include/python3.9 -I. -I/home/link/.local/lib/python3.9/site-packages/nuitka/build/include -I/home/link/.local/lib/python3.9/site-packages/nuitka/build/static_src module.gi._ossighelper.c
+[2022-09-28T22:36:31.393294 74667] Hostname: poopos
+[2022-09-28T22:36:31.393298 74667] Working directory: /home/link/PySharpGTK/gui.build
+[2022-09-28T22:36:31.393301 74667] Compiler type: gcc
+[2022-09-28T22:36:31.393358 74667] Source file: module.gi._ossighelper.c
+[2022-09-28T22:36:31.393363 74667] Object file: module.gi._ossighelper.o
+[2022-09-28T22:36:31.393375 74667] Trying direct lookup
+[2022-09-28T22:36:31.393480 74644] Got result name from preprocessor
+[2022-09-28T22:36:31.393505 74644] No result with name 3ec70qvaaeco9noonlt3v46teq9fsvkiu in the cache
+[2022-09-28T22:36:31.393510 74644] Running real compiler
+[2022-09-28T22:36:31.393531 74644] Executing /usr/bin/gcc -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -D_NUITKA_STANDALONE -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=152 -D_NUITKA_EXE -D_NUITKA_PLUGIN_MULTIPROCESSING_ENABLED=1 -I/usr/include/python3.9 -I. -I/home/link/.local/lib/python3.9/site-packages/nuitka/build/include -I/home/link/.local/lib/python3.9/site-packages/nuitka/build/static_src -c -fdiagnostics-color -o module.__parents_main__.o module.__parents_main__.c
+[2022-09-28T22:36:31.393731 74667] Looking for result name in /home/link/.cache/Nuitka/ccache/d/8/c8vfof3n6khbdo39a7v3un3to4dqn62M
+[2022-09-28T22:36:31.396381 74667] Got result name from manifest
+[2022-09-28T22:36:31.396403 74667] Reading result /home/link/.cache/Nuitka/ccache/2/6/d1g27g5cnip6r3lkuihln6jbp4ekhnkR
+[2022-09-28T22:36:31.396522 74667] Reading embedded entry #0 .o (239528 bytes)
+[2022-09-28T22:36:31.396532 74667] Writing to module.gi._ossighelper.o
+[2022-09-28T22:36:31.397119 74667] Succeeded getting cached result
+[2022-09-28T22:36:31.397132 74667] Result: cache hit (direct)
+[2022-09-28T22:36:31.397183 74667] Acquired lock /home/link/.cache/Nuitka/ccache/2/6/stats.lock
+[2022-09-28T22:36:31.397337 74667] Releasing lock /home/link/.cache/Nuitka/ccache/2/6/stats.lock
+[2022-09-28T22:36:31.397361 74667] Unlink /home/link/.cache/Nuitka/ccache/2/6/stats.lock
+[2022-09-28T22:36:31.404818 74673] === CCACHE 4.2.1 STARTED =========================================
+[2022-09-28T22:36:31.404818 74673] Config: (default) absolute_paths_in_stderr = false
+[2022-09-28T22:36:31.404818 74673] Config: (default) base_dir = 
+[2022-09-28T22:36:31.404818 74673] Config: (environment) cache_dir = /home/link/.cache/Nuitka/ccache
+[2022-09-28T22:36:31.404818 74673] Config: (default) compiler = 
+[2022-09-28T22:36:31.404818 74673] Config: (default) compiler_check = mtime
+[2022-09-28T22:36:31.404818 74673] Config: (default) compiler_type = auto
+[2022-09-28T22:36:31.404818 74673] Config: (default) compression = true
+[2022-09-28T22:36:31.404818 74673] Config: (default) compression_level = 0
+[2022-09-28T22:36:31.404818 74673] Config: (default) cpp_extension = 
+[2022-09-28T22:36:31.404818 74673] Config: (default) debug = false
+[2022-09-28T22:36:31.404818 74673] Config: (default) debug_dir = 
+[2022-09-28T22:36:31.404818 74673] Config: (default) depend_mode = false
+[2022-09-28T22:36:31.404818 74673] Config: (default) direct_mode = true
+[2022-09-28T22:36:31.404818 74673] Config: (default) disable = false
+[2022-09-28T22:36:31.404818 74673] Config: (default) extra_files_to_hash = 
+[2022-09-28T22:36:31.404818 74673] Config: (default) file_clone = false
+[2022-09-28T22:36:31.404818 74673] Config: (default) hard_link = false
+[2022-09-28T22:36:31.404818 74673] Config: (default) hash_dir = true
+[2022-09-28T22:36:31.404818 74673] Config: (default) ignore_headers_in_manifest = 
+[2022-09-28T22:36:31.404818 74673] Config: (default) ignore_options = 
+[2022-09-28T22:36:31.404818 74673] Config: (default) inode_cache = false
+[2022-09-28T22:36:31.404818 74673] Config: (default) keep_comments_cpp = false
+[2022-09-28T22:36:31.404818 74673] Config: (default) limit_multiple = 0.8
+[2022-09-28T22:36:31.404818 74673] Config: (environment) log_file = /home/link/PySharpGTK/gui.build/ccache-74613.txt
+[2022-09-28T22:36:31.404818 74673] Config: (default) max_files = 0
+[2022-09-28T22:36:31.404818 74673] Config: (default) max_size = 5.0G
+[2022-09-28T22:36:31.404818 74673] Config: (default) path = 
+[2022-09-28T22:36:31.404818 74673] Config: (default) pch_external_checksum = false
+[2022-09-28T22:36:31.404818 74673] Config: (default) prefix_command = 
+[2022-09-28T22:36:31.404818 74673] Config: (default) prefix_command_cpp = 
+[2022-09-28T22:36:31.404818 74673] Config: (default) read_only = false
+[2022-09-28T22:36:31.404818 74673] Config: (default) read_only_direct = false
+[2022-09-28T22:36:31.404818 74673] Config: (default) recache = false
+[2022-09-28T22:36:31.404818 74673] Config: (default) run_second_cpp = true
+[2022-09-28T22:36:31.404818 74673] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2022-09-28T22:36:31.404818 74673] Config: (default) stats = true
+[2022-09-28T22:36:31.404818 74673] Config: (default) temporary_dir = /run/user/1000/ccache-tmp
+[2022-09-28T22:36:31.404818 74673] Config: (default) umask = 
+[2022-09-28T22:36:31.404873 74673] Command line: /usr/bin/ccache /usr/bin/gcc -o module.gi._propertyhelper.o -c -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -D_NUITKA_STANDALONE -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=152 -D_NUITKA_EXE -D_NUITKA_PLUGIN_MULTIPROCESSING_ENABLED=1 -I/usr/include/python3.9 -I. -I/home/link/.local/lib/python3.9/site-packages/nuitka/build/include -I/home/link/.local/lib/python3.9/site-packages/nuitka/build/static_src module.gi._propertyhelper.c
+[2022-09-28T22:36:31.404887 74673] Hostname: poopos
+[2022-09-28T22:36:31.404891 74673] Working directory: /home/link/PySharpGTK/gui.build
+[2022-09-28T22:36:31.404894 74673] Compiler type: gcc
+[2022-09-28T22:36:31.404951 74673] Source file: module.gi._propertyhelper.c
+[2022-09-28T22:36:31.404956 74673] Object file: module.gi._propertyhelper.o
+[2022-09-28T22:36:31.404965 74673] Trying direct lookup
+[2022-09-28T22:36:31.405490 74673] Looking for result name in /home/link/.cache/Nuitka/ccache/7/1/eevimvhndtb6d74v755bjllktucbkr6M
+[2022-09-28T22:36:31.407836 74673] Got result name from manifest
+[2022-09-28T22:36:31.407848 74673] Reading result /home/link/.cache/Nuitka/ccache/7/4/2bpl9vnkknthgsr58lf307cf6vbfv6kR
+[2022-09-28T22:36:31.407915 74673] Reading embedded entry #0 .o (314128 bytes)
+[2022-09-28T22:36:31.407922 74673] Writing to module.gi._propertyhelper.o
+[2022-09-28T22:36:31.408288 74673] Succeeded getting cached result
+[2022-09-28T22:36:31.408296 74673] Result: cache hit (direct)
+[2022-09-28T22:36:31.408335 74673] Acquired lock /home/link/.cache/Nuitka/ccache/7/4/stats.lock
+[2022-09-28T22:36:31.408444 74673] Releasing lock /home/link/.cache/Nuitka/ccache/7/4/stats.lock
+[2022-09-28T22:36:31.408457 74673] Unlink /home/link/.cache/Nuitka/ccache/7/4/stats.lock
+[2022-09-28T22:36:31.413186 74676] === CCACHE 4.2.1 STARTED =========================================
+[2022-09-28T22:36:31.413186 74676] Config: (default) absolute_paths_in_stderr = false
+[2022-09-28T22:36:31.413186 74676] Config: (default) base_dir = 
+[2022-09-28T22:36:31.413186 74676] Config: (environment) cache_dir = /home/link/.cache/Nuitka/ccache
+[2022-09-28T22:36:31.413186 74676] Config: (default) compiler = 
+[2022-09-28T22:36:31.413186 74676] Config: (default) compiler_check = mtime
+[2022-09-28T22:36:31.413186 74676] Config: (default) compiler_type = auto
+[2022-09-28T22:36:31.413186 74676] Config: (default) compression = true
+[2022-09-28T22:36:31.413186 74676] Config: (default) compression_level = 0
+[2022-09-28T22:36:31.413186 74676] Config: (default) cpp_extension = 
+[2022-09-28T22:36:31.413186 74676] Config: (default) debug = false
+[2022-09-28T22:36:31.413186 74676] Config: (default) debug_dir = 
+[2022-09-28T22:36:31.413186 74676] Config: (default) depend_mode = false
+[2022-09-28T22:36:31.413186 74676] Config: (default) direct_mode = true
+[2022-09-28T22:36:31.413186 74676] Config: (default) disable = false
+[2022-09-28T22:36:31.413186 74676] Config: (default) extra_files_to_hash = 
+[2022-09-28T22:36:31.413186 74676] Config: (default) file_clone = false
+[2022-09-28T22:36:31.413186 74676] Config: (default) hard_link = false
+[2022-09-28T22:36:31.413186 74676] Config: (default) hash_dir = true
+[2022-09-28T22:36:31.413186 74676] Config: (default) ignore_headers_in_manifest = 
+[2022-09-28T22:36:31.413186 74676] Config: (default) ignore_options = 
+[2022-09-28T22:36:31.413186 74676] Config: (default) inode_cache = false
+[2022-09-28T22:36:31.413186 74676] Config: (default) keep_comments_cpp = false
+[2022-09-28T22:36:31.413186 74676] Config: (default) limit_multiple = 0.8
+[2022-09-28T22:36:31.413186 74676] Config: (environment) log_file = /home/link/PySharpGTK/gui.build/ccache-74613.txt
+[2022-09-28T22:36:31.413186 74676] Config: (default) max_files = 0
+[2022-09-28T22:36:31.413186 74676] Config: (default) max_size = 5.0G
+[2022-09-28T22:36:31.413186 74676] Config: (default) path = 
+[2022-09-28T22:36:31.413186 74676] Config: (default) pch_external_checksum = false
+[2022-09-28T22:36:31.413186 74676] Config: (default) prefix_command = 
+[2022-09-28T22:36:31.413186 74676] Config: (default) prefix_command_cpp = 
+[2022-09-28T22:36:31.413186 74676] Config: (default) read_only = false
+[2022-09-28T22:36:31.413186 74676] Config: (default) read_only_direct = false
+[2022-09-28T22:36:31.413186 74676] Config: (default) recache = false
+[2022-09-28T22:36:31.413186 74676] Config: (default) run_second_cpp = true
+[2022-09-28T22:36:31.413186 74676] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2022-09-28T22:36:31.413186 74676] Config: (default) stats = true
+[2022-09-28T22:36:31.413186 74676] Config: (default) temporary_dir = /run/user/1000/ccache-tmp
+[2022-09-28T22:36:31.413186 74676] Config: (default) umask = 
+[2022-09-28T22:36:31.413329 74676] Command line: /usr/bin/ccache /usr/bin/gcc -o module.gi._signalhelper.o -c -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -D_NUITKA_STANDALONE -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=152 -D_NUITKA_EXE -D_NUITKA_PLUGIN_MULTIPROCESSING_ENABLED=1 -I/usr/include/python3.9 -I. -I/home/link/.local/lib/python3.9/site-packages/nuitka/build/include -I/home/link/.local/lib/python3.9/site-packages/nuitka/build/static_src module.gi._signalhelper.c
+[2022-09-28T22:36:31.413341 74676] Hostname: poopos
+[2022-09-28T22:36:31.413345 74676] Working directory: /home/link/PySharpGTK/gui.build
+[2022-09-28T22:36:31.413349 74676] Compiler type: gcc
+[2022-09-28T22:36:31.413401 74676] Source file: module.gi._signalhelper.c
+[2022-09-28T22:36:31.413407 74676] Object file: module.gi._signalhelper.o
+[2022-09-28T22:36:31.413414 74676] Trying direct lookup
+[2022-09-28T22:36:31.413741 74676] Looking for result name in /home/link/.cache/Nuitka/ccache/8/8/73l8o055548f4q2fuhkuk0gi8i9i2uqM
+[2022-09-28T22:36:31.416040 74676] Got result name from manifest
+[2022-09-28T22:36:31.416051 74676] Reading result /home/link/.cache/Nuitka/ccache/8/d/c7qgdiheblsjpul1q0dpsob5tmlk8icR
+[2022-09-28T22:36:31.416117 74676] Reading embedded entry #0 .o (237576 bytes)
+[2022-09-28T22:36:31.416124 74676] Writing to module.gi._signalhelper.o
+[2022-09-28T22:36:31.416355 74676] Succeeded getting cached result
+[2022-09-28T22:36:31.416362 74676] Result: cache hit (direct)
+[2022-09-28T22:36:31.416396 74676] Acquired lock /home/link/.cache/Nuitka/ccache/8/d/stats.lock
+[2022-09-28T22:36:31.416500 74676] Releasing lock /home/link/.cache/Nuitka/ccache/8/d/stats.lock
+[2022-09-28T22:36:31.416514 74676] Unlink /home/link/.cache/Nuitka/ccache/8/d/stats.lock
+[2022-09-28T22:36:31.428660 74679] === CCACHE 4.2.1 STARTED =========================================
+[2022-09-28T22:36:31.428660 74679] Config: (default) absolute_paths_in_stderr = false
+[2022-09-28T22:36:31.428660 74679] Config: (default) base_dir = 
+[2022-09-28T22:36:31.428660 74679] Config: (environment) cache_dir = /home/link/.cache/Nuitka/ccache
+[2022-09-28T22:36:31.428660 74679] Config: (default) compiler = 
+[2022-09-28T22:36:31.428660 74679] Config: (default) compiler_check = mtime
+[2022-09-28T22:36:31.428660 74679] Config: (default) compiler_type = auto
+[2022-09-28T22:36:31.428660 74679] Config: (default) compression = true
+[2022-09-28T22:36:31.428660 74679] Config: (default) compression_level = 0
+[2022-09-28T22:36:31.428660 74679] Config: (default) cpp_extension = 
+[2022-09-28T22:36:31.428660 74679] Config: (default) debug = false
+[2022-09-28T22:36:31.428660 74679] Config: (default) debug_dir = 
+[2022-09-28T22:36:31.428660 74679] Config: (default) depend_mode = false
+[2022-09-28T22:36:31.428660 74679] Config: (default) direct_mode = true
+[2022-09-28T22:36:31.428660 74679] Config: (default) disable = false
+[2022-09-28T22:36:31.428660 74679] Config: (default) extra_files_to_hash = 
+[2022-09-28T22:36:31.428660 74679] Config: (default) file_clone = false
+[2022-09-28T22:36:31.428660 74679] Config: (default) hard_link = false
+[2022-09-28T22:36:31.428660 74679] Config: (default) hash_dir = true
+[2022-09-28T22:36:31.428660 74679] Config: (default) ignore_headers_in_manifest = 
+[2022-09-28T22:36:31.428660 74679] Config: (default) ignore_options = 
+[2022-09-28T22:36:31.428660 74679] Config: (default) inode_cache = false
+[2022-09-28T22:36:31.428660 74679] Config: (default) keep_comments_cpp = false
+[2022-09-28T22:36:31.428660 74679] Config: (default) limit_multiple = 0.8
+[2022-09-28T22:36:31.428660 74679] Config: (environment) log_file = /home/link/PySharpGTK/gui.build/ccache-74613.txt
+[2022-09-28T22:36:31.428660 74679] Config: (default) max_files = 0
+[2022-09-28T22:36:31.428660 74679] Config: (default) max_size = 5.0G
+[2022-09-28T22:36:31.428660 74679] Config: (default) path = 
+[2022-09-28T22:36:31.428660 74679] Config: (default) pch_external_checksum = false
+[2022-09-28T22:36:31.428660 74679] Config: (default) prefix_command = 
+[2022-09-28T22:36:31.428660 74679] Config: (default) prefix_command_cpp = 
+[2022-09-28T22:36:31.428660 74679] Config: (default) read_only = false
+[2022-09-28T22:36:31.428660 74679] Config: (default) read_only_direct = false
+[2022-09-28T22:36:31.428660 74679] Config: (default) recache = false
+[2022-09-28T22:36:31.428660 74679] Config: (default) run_second_cpp = true
+[2022-09-28T22:36:31.428660 74679] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2022-09-28T22:36:31.428660 74679] Config: (default) stats = true
+[2022-09-28T22:36:31.428660 74679] Config: (default) temporary_dir = /run/user/1000/ccache-tmp
+[2022-09-28T22:36:31.428660 74679] Config: (default) umask = 
+[2022-09-28T22:36:31.428718 74679] Command line: /usr/bin/ccache /usr/bin/gcc -o module.gi.o -c -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -D_NUITKA_STANDALONE -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=152 -D_NUITKA_EXE -D_NUITKA_PLUGIN_MULTIPROCESSING_ENABLED=1 -I/usr/include/python3.9 -I. -I/home/link/.local/lib/python3.9/site-packages/nuitka/build/include -I/home/link/.local/lib/python3.9/site-packages/nuitka/build/static_src module.gi.c
+[2022-09-28T22:36:31.428732 74679] Hostname: poopos
+[2022-09-28T22:36:31.428736 74679] Working directory: /home/link/PySharpGTK/gui.build
+[2022-09-28T22:36:31.428739 74679] Compiler type: gcc
+[2022-09-28T22:36:31.428794 74679] Source file: module.gi.c
+[2022-09-28T22:36:31.428799 74679] Object file: module.gi.o
+[2022-09-28T22:36:31.428808 74679] Trying direct lookup
+[2022-09-28T22:36:31.429013 74679] Looking for result name in /home/link/.cache/Nuitka/ccache/e/9/7d60d98d5glit2c4eglhlqlo134kegmM
+[2022-09-28T22:36:31.431153 74682] === CCACHE 4.2.1 STARTED =========================================
+[2022-09-28T22:36:31.431153 74682] Config: (default) absolute_paths_in_stderr = false
+[2022-09-28T22:36:31.431153 74682] Config: (default) base_dir = 
+[2022-09-28T22:36:31.431153 74682] Config: (environment) cache_dir = /home/link/.cache/Nuitka/ccache
+[2022-09-28T22:36:31.431153 74682] Config: (default) compiler = 
+[2022-09-28T22:36:31.431153 74682] Config: (default) compiler_check = mtime
+[2022-09-28T22:36:31.431153 74682] Config: (default) compiler_type = auto
+[2022-09-28T22:36:31.431153 74682] Config: (default) compression = true
+[2022-09-28T22:36:31.431153 74682] Config: (default) compression_level = 0
+[2022-09-28T22:36:31.431153 74682] Config: (default) cpp_extension = 
+[2022-09-28T22:36:31.431153 74682] Config: (default) debug = false
+[2022-09-28T22:36:31.431153 74682] Config: (default) debug_dir = 
+[2022-09-28T22:36:31.431153 74682] Config: (default) depend_mode = false
+[2022-09-28T22:36:31.431153 74682] Config: (default) direct_mode = true
+[2022-09-28T22:36:31.431153 74682] Config: (default) disable = false
+[2022-09-28T22:36:31.431153 74682] Config: (default) extra_files_to_hash = 
+[2022-09-28T22:36:31.431153 74682] Config: (default) file_clone = false
+[2022-09-28T22:36:31.431153 74682] Config: (default) hard_link = false
+[2022-09-28T22:36:31.431153 74682] Config: (default) hash_dir = true
+[2022-09-28T22:36:31.431153 74682] Config: (default) ignore_headers_in_manifest = 
+[2022-09-28T22:36:31.431153 74682] Config: (default) ignore_options = 
+[2022-09-28T22:36:31.431153 74682] Config: (default) inode_cache = false
+[2022-09-28T22:36:31.431153 74682] Config: (default) keep_comments_cpp = false
+[2022-09-28T22:36:31.431153 74682] Config: (default) limit_multiple = 0.8
+[2022-09-28T22:36:31.431153 74682] Config: (environment) log_file = /home/link/PySharpGTK/gui.build/ccache-74613.txt
+[2022-09-28T22:36:31.431153 74682] Config: (default) max_files = 0
+[2022-09-28T22:36:31.431153 74682] Config: (default) max_size = 5.0G
+[2022-09-28T22:36:31.431153 74682] Config: (default) path = 
+[2022-09-28T22:36:31.431153 74682] Config: (default) pch_external_checksum = false
+[2022-09-28T22:36:31.431153 74682] Config: (default) prefix_command = 
+[2022-09-28T22:36:31.431153 74682] Config: (default) prefix_command_cpp = 
+[2022-09-28T22:36:31.431153 74682] Config: (default) read_only = false
+[2022-09-28T22:36:31.431153 74682] Config: (default) read_only_direct = false
+[2022-09-28T22:36:31.431153 74682] Config: (default) recache = false
+[2022-09-28T22:36:31.431153 74682] Config: (default) run_second_cpp = true
+[2022-09-28T22:36:31.431153 74682] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2022-09-28T22:36:31.431153 74682] Config: (default) stats = true
+[2022-09-28T22:36:31.431153 74682] Config: (default) temporary_dir = /run/user/1000/ccache-tmp
+[2022-09-28T22:36:31.431153 74682] Config: (default) umask = 
+[2022-09-28T22:36:31.431350 74682] Command line: /usr/bin/ccache /usr/bin/gcc -o module.gi.docstring.o -c -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -D_NUITKA_STANDALONE -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=152 -D_NUITKA_EXE -D_NUITKA_PLUGIN_MULTIPROCESSING_ENABLED=1 -I/usr/include/python3.9 -I. -I/home/link/.local/lib/python3.9/site-packages/nuitka/build/include -I/home/link/.local/lib/python3.9/site-packages/nuitka/build/static_src module.gi.docstring.c
+[2022-09-28T22:36:31.431364 74682] Hostname: poopos
+[2022-09-28T22:36:31.431368 74682] Working directory: /home/link/PySharpGTK/gui.build
+[2022-09-28T22:36:31.431371 74682] Compiler type: gcc
+[2022-09-28T22:36:31.431399 74679] Got result name from manifest
+[2022-09-28T22:36:31.431412 74679] Reading result /home/link/.cache/Nuitka/ccache/c/d/2b4b92oqnep9fhull0vehdgmircuohgR
+[2022-09-28T22:36:31.431425 74682] Source file: module.gi.docstring.c
+[2022-09-28T22:36:31.431430 74682] Object file: module.gi.docstring.o
+[2022-09-28T22:36:31.431438 74682] Trying direct lookup
+[2022-09-28T22:36:31.431508 74679] Reading embedded entry #0 .o (176048 bytes)
+[2022-09-28T22:36:31.431515 74679] Writing to module.gi.o
+[2022-09-28T22:36:31.431683 74682] Looking for result name in /home/link/.cache/Nuitka/ccache/4/8/e208qcqg8gpb2dpgnp8cqj9mag5ftecM
+[2022-09-28T22:36:31.431764 74679] Succeeded getting cached result
+[2022-09-28T22:36:31.431777 74679] Result: cache hit (direct)
+[2022-09-28T22:36:31.431824 74679] Acquired lock /home/link/.cache/Nuitka/ccache/c/d/stats.lock
+[2022-09-28T22:36:31.431946 74679] Releasing lock /home/link/.cache/Nuitka/ccache/c/d/stats.lock
+[2022-09-28T22:36:31.431960 74679] Unlink /home/link/.cache/Nuitka/ccache/c/d/stats.lock
+[2022-09-28T22:36:31.434051 74682] Got result name from manifest
+[2022-09-28T22:36:31.434066 74682] Reading result /home/link/.cache/Nuitka/ccache/1/8/5ar5p6bh19nccv43dickvulgiuuut02R
+[2022-09-28T22:36:31.434141 74682] Reading embedded entry #0 .o (161168 bytes)
+[2022-09-28T22:36:31.434149 74682] Writing to module.gi.docstring.o
+[2022-09-28T22:36:31.434396 74682] Succeeded getting cached result
+[2022-09-28T22:36:31.434405 74682] Result: cache hit (direct)
+[2022-09-28T22:36:31.434448 74682] Acquired lock /home/link/.cache/Nuitka/ccache/1/8/stats.lock
+[2022-09-28T22:36:31.434556 74682] Releasing lock /home/link/.cache/Nuitka/ccache/1/8/stats.lock
+[2022-09-28T22:36:31.434570 74682] Unlink /home/link/.cache/Nuitka/ccache/1/8/stats.lock
+[2022-09-28T22:36:31.440808 74685] === CCACHE 4.2.1 STARTED =========================================
+[2022-09-28T22:36:31.440808 74685] Config: (default) absolute_paths_in_stderr = false
+[2022-09-28T22:36:31.440808 74685] Config: (default) base_dir = 
+[2022-09-28T22:36:31.440808 74685] Config: (environment) cache_dir = /home/link/.cache/Nuitka/ccache
+[2022-09-28T22:36:31.440808 74685] Config: (default) compiler = 
+[2022-09-28T22:36:31.440808 74685] Config: (default) compiler_check = mtime
+[2022-09-28T22:36:31.440808 74685] Config: (default) compiler_type = auto
+[2022-09-28T22:36:31.440808 74685] Config: (default) compression = true
+[2022-09-28T22:36:31.440808 74685] Config: (default) compression_level = 0
+[2022-09-28T22:36:31.440808 74685] Config: (default) cpp_extension = 
+[2022-09-28T22:36:31.440808 74685] Config: (default) debug = false
+[2022-09-28T22:36:31.440808 74685] Config: (default) debug_dir = 
+[2022-09-28T22:36:31.440808 74685] Config: (default) depend_mode = false
+[2022-09-28T22:36:31.440808 74685] Config: (default) direct_mode = true
+[2022-09-28T22:36:31.440808 74685] Config: (default) disable = false
+[2022-09-28T22:36:31.440808 74685] Config: (default) extra_files_to_hash = 
+[2022-09-28T22:36:31.440808 74685] Config: (default) file_clone = false
+[2022-09-28T22:36:31.440808 74685] Config: (default) hard_link = false
+[2022-09-28T22:36:31.440808 74685] Config: (default) hash_dir = true
+[2022-09-28T22:36:31.440808 74685] Config: (default) ignore_headers_in_manifest = 
+[2022-09-28T22:36:31.440808 74685] Config: (default) ignore_options = 
+[2022-09-28T22:36:31.440808 74685] Config: (default) inode_cache = false
+[2022-09-28T22:36:31.440808 74685] Config: (default) keep_comments_cpp = false
+[2022-09-28T22:36:31.440808 74685] Config: (default) limit_multiple = 0.8
+[2022-09-28T22:36:31.440808 74685] Config: (environment) log_file = /home/link/PySharpGTK/gui.build/ccache-74613.txt
+[2022-09-28T22:36:31.440808 74685] Config: (default) max_files = 0
+[2022-09-28T22:36:31.440808 74685] Config: (default) max_size = 5.0G
+[2022-09-28T22:36:31.440808 74685] Config: (default) path = 
+[2022-09-28T22:36:31.440808 74685] Config: (default) pch_external_checksum = false
+[2022-09-28T22:36:31.440808 74685] Config: (default) prefix_command = 
+[2022-09-28T22:36:31.440808 74685] Config: (default) prefix_command_cpp = 
+[2022-09-28T22:36:31.440808 74685] Config: (default) read_only = false
+[2022-09-28T22:36:31.440808 74685] Config: (default) read_only_direct = false
+[2022-09-28T22:36:31.440808 74685] Config: (default) recache = false
+[2022-09-28T22:36:31.440808 74685] Config: (default) run_second_cpp = true
+[2022-09-28T22:36:31.440808 74685] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2022-09-28T22:36:31.440808 74685] Config: (default) stats = true
+[2022-09-28T22:36:31.440808 74685] Config: (default) temporary_dir = /run/user/1000/ccache-tmp
+[2022-09-28T22:36:31.440808 74685] Config: (default) umask = 
+[2022-09-28T22:36:31.440859 74685] Command line: /usr/bin/ccache /usr/bin/gcc -o module.gi.importer.o -c -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -D_NUITKA_STANDALONE -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=152 -D_NUITKA_EXE -D_NUITKA_PLUGIN_MULTIPROCESSING_ENABLED=1 -I/usr/include/python3.9 -I. -I/home/link/.local/lib/python3.9/site-packages/nuitka/build/include -I/home/link/.local/lib/python3.9/site-packages/nuitka/build/static_src module.gi.importer.c
+[2022-09-28T22:36:31.440871 74685] Hostname: poopos
+[2022-09-28T22:36:31.440874 74685] Working directory: /home/link/PySharpGTK/gui.build
+[2022-09-28T22:36:31.440877 74685] Compiler type: gcc
+[2022-09-28T22:36:31.440932 74685] Source file: module.gi.importer.c
+[2022-09-28T22:36:31.440937 74685] Object file: module.gi.importer.o
+[2022-09-28T22:36:31.440946 74685] Trying direct lookup
+[2022-09-28T22:36:31.441138 74685] Looking for result name in /home/link/.cache/Nuitka/ccache/2/8/32ako6d01mgndiigaj7klr5alq711ecM
+[2022-09-28T22:36:31.443602 74685] Got result name from manifest
+[2022-09-28T22:36:31.443615 74685] Reading result /home/link/.cache/Nuitka/ccache/f/6/2br7gi63dlog7mivr5b6ept7btuku1uR
+[2022-09-28T22:36:31.443686 74685] Reading embedded entry #0 .o (173160 bytes)
+[2022-09-28T22:36:31.443693 74685] Writing to module.gi.importer.o
+[2022-09-28T22:36:31.443946 74685] Succeeded getting cached result
+[2022-09-28T22:36:31.443953 74685] Result: cache hit (direct)
+[2022-09-28T22:36:31.443991 74685] Acquired lock /home/link/.cache/Nuitka/ccache/f/6/stats.lock
+[2022-09-28T22:36:31.444092 74685] Releasing lock /home/link/.cache/Nuitka/ccache/f/6/stats.lock
+[2022-09-28T22:36:31.444106 74685] Unlink /home/link/.cache/Nuitka/ccache/f/6/stats.lock
+[2022-09-28T22:36:31.459705 74688] === CCACHE 4.2.1 STARTED =========================================
+[2022-09-28T22:36:31.459705 74688] Config: (default) absolute_paths_in_stderr = false
+[2022-09-28T22:36:31.459705 74688] Config: (default) base_dir = 
+[2022-09-28T22:36:31.459705 74688] Config: (environment) cache_dir = /home/link/.cache/Nuitka/ccache
+[2022-09-28T22:36:31.459705 74688] Config: (default) compiler = 
+[2022-09-28T22:36:31.459705 74688] Config: (default) compiler_check = mtime
+[2022-09-28T22:36:31.459705 74688] Config: (default) compiler_type = auto
+[2022-09-28T22:36:31.459705 74688] Config: (default) compression = true
+[2022-09-28T22:36:31.459705 74688] Config: (default) compression_level = 0
+[2022-09-28T22:36:31.459705 74688] Config: (default) cpp_extension = 
+[2022-09-28T22:36:31.459705 74688] Config: (default) debug = false
+[2022-09-28T22:36:31.459705 74688] Config: (default) debug_dir = 
+[2022-09-28T22:36:31.459705 74688] Config: (default) depend_mode = false
+[2022-09-28T22:36:31.459705 74688] Config: (default) direct_mode = true
+[2022-09-28T22:36:31.459705 74688] Config: (default) disable = false
+[2022-09-28T22:36:31.459705 74688] Config: (default) extra_files_to_hash = 
+[2022-09-28T22:36:31.459705 74688] Config: (default) file_clone = false
+[2022-09-28T22:36:31.459705 74688] Config: (default) hard_link = false
+[2022-09-28T22:36:31.459705 74688] Config: (default) hash_dir = true
+[2022-09-28T22:36:31.459705 74688] Config: (default) ignore_headers_in_manifest = 
+[2022-09-28T22:36:31.459705 74688] Config: (default) ignore_options = 
+[2022-09-28T22:36:31.459705 74688] Config: (default) inode_cache = false
+[2022-09-28T22:36:31.459705 74688] Config: (default) keep_comments_cpp = false
+[2022-09-28T22:36:31.459705 74688] Config: (default) limit_multiple = 0.8
+[2022-09-28T22:36:31.459705 74688] Config: (environment) log_file = /home/link/PySharpGTK/gui.build/ccache-74613.txt
+[2022-09-28T22:36:31.459705 74688] Config: (default) max_files = 0
+[2022-09-28T22:36:31.459705 74688] Config: (default) max_size = 5.0G
+[2022-09-28T22:36:31.459705 74688] Config: (default) path = 
+[2022-09-28T22:36:31.459705 74688] Config: (default) pch_external_checksum = false
+[2022-09-28T22:36:31.459705 74688] Config: (default) prefix_command = 
+[2022-09-28T22:36:31.459705 74688] Config: (default) prefix_command_cpp = 
+[2022-09-28T22:36:31.459705 74688] Config: (default) read_only = false
+[2022-09-28T22:36:31.459705 74688] Config: (default) read_only_direct = false
+[2022-09-28T22:36:31.459705 74688] Config: (default) recache = false
+[2022-09-28T22:36:31.459705 74688] Config: (default) run_second_cpp = true
+[2022-09-28T22:36:31.459705 74688] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2022-09-28T22:36:31.459705 74688] Config: (default) stats = true
+[2022-09-28T22:36:31.459705 74688] Config: (default) temporary_dir = /run/user/1000/ccache-tmp
+[2022-09-28T22:36:31.459705 74688] Config: (default) umask = 
+[2022-09-28T22:36:31.459760 74688] Command line: /usr/bin/ccache /usr/bin/gcc -o module.gi.module.o -c -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -D_NUITKA_STANDALONE -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=152 -D_NUITKA_EXE -D_NUITKA_PLUGIN_MULTIPROCESSING_ENABLED=1 -I/usr/include/python3.9 -I. -I/home/link/.local/lib/python3.9/site-packages/nuitka/build/include -I/home/link/.local/lib/python3.9/site-packages/nuitka/build/static_src module.gi.module.c
+[2022-09-28T22:36:31.459773 74688] Hostname: poopos
+[2022-09-28T22:36:31.459776 74688] Working directory: /home/link/PySharpGTK/gui.build
+[2022-09-28T22:36:31.459780 74688] Compiler type: gcc
+[2022-09-28T22:36:31.459836 74688] Source file: module.gi.module.c
+[2022-09-28T22:36:31.459842 74688] Object file: module.gi.module.o
+[2022-09-28T22:36:31.459852 74688] Trying direct lookup
+[2022-09-28T22:36:31.460156 74688] Looking for result name in /home/link/.cache/Nuitka/ccache/0/a/a3brc2rtkh48qc39l4poiufiu5quiacM
+[2022-09-28T22:36:31.462644 74688] Got result name from manifest
+[2022-09-28T22:36:31.462658 74688] Reading result /home/link/.cache/Nuitka/ccache/9/c/b2m7rt1vl3k22p6cica9n6qh2h1lhnaR
+[2022-09-28T22:36:31.462734 74688] Reading embedded entry #0 .o (214440 bytes)
+[2022-09-28T22:36:31.462740 74688] Writing to module.gi.module.o
+[2022-09-28T22:36:31.463251 74688] Succeeded getting cached result
+[2022-09-28T22:36:31.463264 74688] Result: cache hit (direct)
+[2022-09-28T22:36:31.463326 74688] Acquired lock /home/link/.cache/Nuitka/ccache/9/c/stats.lock
+[2022-09-28T22:36:31.463481 74688] Releasing lock /home/link/.cache/Nuitka/ccache/9/c/stats.lock
+[2022-09-28T22:36:31.463498 74688] Unlink /home/link/.cache/Nuitka/ccache/9/c/stats.lock
+[2022-09-28T22:36:31.467713 74691] === CCACHE 4.2.1 STARTED =========================================
+[2022-09-28T22:36:31.467713 74691] Config: (default) absolute_paths_in_stderr = false
+[2022-09-28T22:36:31.467713 74691] Config: (default) base_dir = 
+[2022-09-28T22:36:31.467713 74691] Config: (environment) cache_dir = /home/link/.cache/Nuitka/ccache
+[2022-09-28T22:36:31.467713 74691] Config: (default) compiler = 
+[2022-09-28T22:36:31.467713 74691] Config: (default) compiler_check = mtime
+[2022-09-28T22:36:31.467713 74691] Config: (default) compiler_type = auto
+[2022-09-28T22:36:31.467713 74691] Config: (default) compression = true
+[2022-09-28T22:36:31.467713 74691] Config: (default) compression_level = 0
+[2022-09-28T22:36:31.467713 74691] Config: (default) cpp_extension = 
+[2022-09-28T22:36:31.467713 74691] Config: (default) debug = false
+[2022-09-28T22:36:31.467713 74691] Config: (default) debug_dir = 
+[2022-09-28T22:36:31.467713 74691] Config: (default) depend_mode = false
+[2022-09-28T22:36:31.467713 74691] Config: (default) direct_mode = true
+[2022-09-28T22:36:31.467713 74691] Config: (default) disable = false
+[2022-09-28T22:36:31.467713 74691] Config: (default) extra_files_to_hash = 
+[2022-09-28T22:36:31.467713 74691] Config: (default) file_clone = false
+[2022-09-28T22:36:31.467713 74691] Config: (default) hard_link = false
+[2022-09-28T22:36:31.467713 74691] Config: (default) hash_dir = true
+[2022-09-28T22:36:31.467713 74691] Config: (default) ignore_headers_in_manifest = 
+[2022-09-28T22:36:31.467713 74691] Config: (default) ignore_options = 
+[2022-09-28T22:36:31.467713 74691] Config: (default) inode_cache = false
+[2022-09-28T22:36:31.467713 74691] Config: (default) keep_comments_cpp = false
+[2022-09-28T22:36:31.467713 74691] Config: (default) limit_multiple = 0.8
+[2022-09-28T22:36:31.467713 74691] Config: (environment) log_file = /home/link/PySharpGTK/gui.build/ccache-74613.txt
+[2022-09-28T22:36:31.467713 74691] Config: (default) max_files = 0
+[2022-09-28T22:36:31.467713 74691] Config: (default) max_size = 5.0G
+[2022-09-28T22:36:31.467713 74691] Config: (default) path = 
+[2022-09-28T22:36:31.467713 74691] Config: (default) pch_external_checksum = false
+[2022-09-28T22:36:31.467713 74691] Config: (default) prefix_command = 
+[2022-09-28T22:36:31.467713 74691] Config: (default) prefix_command_cpp = 
+[2022-09-28T22:36:31.467713 74691] Config: (default) read_only = false
+[2022-09-28T22:36:31.467713 74691] Config: (default) read_only_direct = false
+[2022-09-28T22:36:31.467713 74691] Config: (default) recache = false
+[2022-09-28T22:36:31.467713 74691] Config: (default) run_second_cpp = true
+[2022-09-28T22:36:31.467713 74691] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2022-09-28T22:36:31.467713 74691] Config: (default) stats = true
+[2022-09-28T22:36:31.467713 74691] Config: (default) temporary_dir = /run/user/1000/ccache-tmp
+[2022-09-28T22:36:31.467713 74691] Config: (default) umask = 
+[2022-09-28T22:36:31.467779 74691] Command line: /usr/bin/ccache /usr/bin/gcc -o module.gi.overrides.GLib.o -c -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -D_NUITKA_STANDALONE -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=152 -D_NUITKA_EXE -D_NUITKA_PLUGIN_MULTIPROCESSING_ENABLED=1 -I/usr/include/python3.9 -I. -I/home/link/.local/lib/python3.9/site-packages/nuitka/build/include -I/home/link/.local/lib/python3.9/site-packages/nuitka/build/static_src module.gi.overrides.GLib.c
+[2022-09-28T22:36:31.467796 74691] Hostname: poopos
+[2022-09-28T22:36:31.467801 74691] Working directory: /home/link/PySharpGTK/gui.build
+[2022-09-28T22:36:31.467806 74691] Compiler type: gcc
+[2022-09-28T22:36:31.467879 74691] Source file: module.gi.overrides.GLib.c
+[2022-09-28T22:36:31.467887 74691] Object file: module.gi.overrides.GLib.o
+[2022-09-28T22:36:31.467901 74691] Trying direct lookup
+[2022-09-28T22:36:31.469677 74691] Looking for result name in /home/link/.cache/Nuitka/ccache/e/6/a1qb3m8pvmh014o32bddu8a9ie1fjqiM
+[2022-09-28T22:36:31.472781 74691] Got result name from manifest
+[2022-09-28T22:36:31.472818 74691] Reading result /home/link/.cache/Nuitka/ccache/a/9/1cm1ujvsln2n7aubetgbb225evqs53uR
+[2022-09-28T22:36:31.472917 74691] Reading embedded entry #0 .o (729424 bytes)
+[2022-09-28T22:36:31.472925 74691] Writing to module.gi.overrides.GLib.o
+[2022-09-28T22:36:31.474002 74691] Succeeded getting cached result
+[2022-09-28T22:36:31.474014 74691] Result: cache hit (direct)
+[2022-09-28T22:36:31.474069 74691] Acquired lock /home/link/.cache/Nuitka/ccache/a/9/stats.lock
+[2022-09-28T22:36:31.474203 74691] Releasing lock /home/link/.cache/Nuitka/ccache/a/9/stats.lock
+[2022-09-28T22:36:31.474222 74691] Unlink /home/link/.cache/Nuitka/ccache/a/9/stats.lock
+[2022-09-28T22:36:31.487525 74694] === CCACHE 4.2.1 STARTED =========================================
+[2022-09-28T22:36:31.487525 74694] Config: (default) absolute_paths_in_stderr = false
+[2022-09-28T22:36:31.487525 74694] Config: (default) base_dir = 
+[2022-09-28T22:36:31.487525 74694] Config: (environment) cache_dir = /home/link/.cache/Nuitka/ccache
+[2022-09-28T22:36:31.487525 74694] Config: (default) compiler = 
+[2022-09-28T22:36:31.487525 74694] Config: (default) compiler_check = mtime
+[2022-09-28T22:36:31.487525 74694] Config: (default) compiler_type = auto
+[2022-09-28T22:36:31.487525 74694] Config: (default) compression = true
+[2022-09-28T22:36:31.487525 74694] Config: (default) compression_level = 0
+[2022-09-28T22:36:31.487525 74694] Config: (default) cpp_extension = 
+[2022-09-28T22:36:31.487525 74694] Config: (default) debug = false
+[2022-09-28T22:36:31.487525 74694] Config: (default) debug_dir = 
+[2022-09-28T22:36:31.487525 74694] Config: (default) depend_mode = false
+[2022-09-28T22:36:31.487525 74694] Config: (default) direct_mode = true
+[2022-09-28T22:36:31.487525 74694] Config: (default) disable = false
+[2022-09-28T22:36:31.487525 74694] Config: (default) extra_files_to_hash = 
+[2022-09-28T22:36:31.487525 74694] Config: (default) file_clone = false
+[2022-09-28T22:36:31.487525 74694] Config: (default) hard_link = false
+[2022-09-28T22:36:31.487525 74694] Config: (default) hash_dir = true
+[2022-09-28T22:36:31.487525 74694] Config: (default) ignore_headers_in_manifest = 
+[2022-09-28T22:36:31.487525 74694] Config: (default) ignore_options = 
+[2022-09-28T22:36:31.487525 74694] Config: (default) inode_cache = false
+[2022-09-28T22:36:31.487525 74694] Config: (default) keep_comments_cpp = false
+[2022-09-28T22:36:31.487525 74694] Config: (default) limit_multiple = 0.8
+[2022-09-28T22:36:31.487525 74694] Config: (environment) log_file = /home/link/PySharpGTK/gui.build/ccache-74613.txt
+[2022-09-28T22:36:31.487525 74694] Config: (default) max_files = 0
+[2022-09-28T22:36:31.487525 74694] Config: (default) max_size = 5.0G
+[2022-09-28T22:36:31.487525 74694] Config: (default) path = 
+[2022-09-28T22:36:31.487525 74694] Config: (default) pch_external_checksum = false
+[2022-09-28T22:36:31.487525 74694] Config: (default) prefix_command = 
+[2022-09-28T22:36:31.487525 74694] Config: (default) prefix_command_cpp = 
+[2022-09-28T22:36:31.487525 74694] Config: (default) read_only = false
+[2022-09-28T22:36:31.487525 74694] Config: (default) read_only_direct = false
+[2022-09-28T22:36:31.487525 74694] Config: (default) recache = false
+[2022-09-28T22:36:31.487525 74694] Config: (default) run_second_cpp = true
+[2022-09-28T22:36:31.487525 74694] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2022-09-28T22:36:31.487525 74694] Config: (default) stats = true
+[2022-09-28T22:36:31.487525 74694] Config: (default) temporary_dir = /run/user/1000/ccache-tmp
+[2022-09-28T22:36:31.487525 74694] Config: (default) umask = 
+[2022-09-28T22:36:31.487849 74694] Command line: /usr/bin/ccache /usr/bin/gcc -o module.gi.overrides.GObject.o -c -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -D_NUITKA_STANDALONE -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=152 -D_NUITKA_EXE -D_NUITKA_PLUGIN_MULTIPROCESSING_ENABLED=1 -I/usr/include/python3.9 -I. -I/home/link/.local/lib/python3.9/site-packages/nuitka/build/include -I/home/link/.local/lib/python3.9/site-packages/nuitka/build/static_src module.gi.overrides.GObject.c
+[2022-09-28T22:36:31.487869 74694] Hostname: poopos
+[2022-09-28T22:36:31.487874 74694] Working directory: /home/link/PySharpGTK/gui.build
+[2022-09-28T22:36:31.487877 74694] Compiler type: gcc
+[2022-09-28T22:36:31.487971 74694] Source file: module.gi.overrides.GObject.c
+[2022-09-28T22:36:31.487976 74694] Object file: module.gi.overrides.GObject.o
+[2022-09-28T22:36:31.487989 74694] Trying direct lookup
+[2022-09-28T22:36:31.488972 74694] Looking for result name in /home/link/.cache/Nuitka/ccache/d/f/051i8qsq2049arb0ka6a9lsmcp4srr8M
+[2022-09-28T22:36:31.491360 74694] Got result name from manifest
+[2022-09-28T22:36:31.491374 74694] Reading result /home/link/.cache/Nuitka/ccache/b/a/0c7viajomcda85qldrluh5cvfhh2ne4R
+[2022-09-28T22:36:31.491450 74694] Reading embedded entry #0 .o (475808 bytes)
+[2022-09-28T22:36:31.491457 74694] Writing to module.gi.overrides.GObject.o
+[2022-09-28T22:36:31.491935 74694] Succeeded getting cached result
+[2022-09-28T22:36:31.491943 74694] Result: cache hit (direct)
+[2022-09-28T22:36:31.491983 74694] Acquired lock /home/link/.cache/Nuitka/ccache/b/a/stats.lock
+[2022-09-28T22:36:31.492092 74694] Releasing lock /home/link/.cache/Nuitka/ccache/b/a/stats.lock
+[2022-09-28T22:36:31.492106 74694] Unlink /home/link/.cache/Nuitka/ccache/b/a/stats.lock
+[2022-09-28T22:36:31.500191 74697] === CCACHE 4.2.1 STARTED =========================================
+[2022-09-28T22:36:31.500191 74697] Config: (default) absolute_paths_in_stderr = false
+[2022-09-28T22:36:31.500191 74697] Config: (default) base_dir = 
+[2022-09-28T22:36:31.500191 74697] Config: (environment) cache_dir = /home/link/.cache/Nuitka/ccache
+[2022-09-28T22:36:31.500191 74697] Config: (default) compiler = 
+[2022-09-28T22:36:31.500191 74697] Config: (default) compiler_check = mtime
+[2022-09-28T22:36:31.500191 74697] Config: (default) compiler_type = auto
+[2022-09-28T22:36:31.500191 74697] Config: (default) compression = true
+[2022-09-28T22:36:31.500191 74697] Config: (default) compression_level = 0
+[2022-09-28T22:36:31.500191 74697] Config: (default) cpp_extension = 
+[2022-09-28T22:36:31.500191 74697] Config: (default) debug = false
+[2022-09-28T22:36:31.500191 74697] Config: (default) debug_dir = 
+[2022-09-28T22:36:31.500191 74697] Config: (default) depend_mode = false
+[2022-09-28T22:36:31.500191 74697] Config: (default) direct_mode = true
+[2022-09-28T22:36:31.500191 74697] Config: (default) disable = false
+[2022-09-28T22:36:31.500191 74697] Config: (default) extra_files_to_hash = 
+[2022-09-28T22:36:31.500191 74697] Config: (default) file_clone = false
+[2022-09-28T22:36:31.500191 74697] Config: (default) hard_link = false
+[2022-09-28T22:36:31.500191 74697] Config: (default) hash_dir = true
+[2022-09-28T22:36:31.500191 74697] Config: (default) ignore_headers_in_manifest = 
+[2022-09-28T22:36:31.500191 74697] Config: (default) ignore_options = 
+[2022-09-28T22:36:31.500191 74697] Config: (default) inode_cache = false
+[2022-09-28T22:36:31.500191 74697] Config: (default) keep_comments_cpp = false
+[2022-09-28T22:36:31.500191 74697] Config: (default) limit_multiple = 0.8
+[2022-09-28T22:36:31.500191 74697] Config: (environment) log_file = /home/link/PySharpGTK/gui.build/ccache-74613.txt
+[2022-09-28T22:36:31.500191 74697] Config: (default) max_files = 0
+[2022-09-28T22:36:31.500191 74697] Config: (default) max_size = 5.0G
+[2022-09-28T22:36:31.500191 74697] Config: (default) path = 
+[2022-09-28T22:36:31.500191 74697] Config: (default) pch_external_checksum = false
+[2022-09-28T22:36:31.500191 74697] Config: (default) prefix_command = 
+[2022-09-28T22:36:31.500191 74697] Config: (default) prefix_command_cpp = 
+[2022-09-28T22:36:31.500191 74697] Config: (default) read_only = false
+[2022-09-28T22:36:31.500191 74697] Config: (default) read_only_direct = false
+[2022-09-28T22:36:31.500191 74697] Config: (default) recache = false
+[2022-09-28T22:36:31.500191 74697] Config: (default) run_second_cpp = true
+[2022-09-28T22:36:31.500191 74697] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2022-09-28T22:36:31.500191 74697] Config: (default) stats = true
+[2022-09-28T22:36:31.500191 74697] Config: (default) temporary_dir = /run/user/1000/ccache-tmp
+[2022-09-28T22:36:31.500191 74697] Config: (default) umask = 
+[2022-09-28T22:36:31.500252 74697] Command line: /usr/bin/ccache /usr/bin/gcc -o module.gi.overrides.Gdk.o -c -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -D_NUITKA_STANDALONE -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=152 -D_NUITKA_EXE -D_NUITKA_PLUGIN_MULTIPROCESSING_ENABLED=1 -I/usr/include/python3.9 -I. -I/home/link/.local/lib/python3.9/site-packages/nuitka/build/include -I/home/link/.local/lib/python3.9/site-packages/nuitka/build/static_src module.gi.overrides.Gdk.c
+[2022-09-28T22:36:31.500271 74697] Hostname: poopos
+[2022-09-28T22:36:31.500275 74697] Working directory: /home/link/PySharpGTK/gui.build
+[2022-09-28T22:36:31.500281 74697] Compiler type: gcc
+[2022-09-28T22:36:31.500346 74697] Source file: module.gi.overrides.Gdk.c
+[2022-09-28T22:36:31.500354 74697] Object file: module.gi.overrides.Gdk.o
+[2022-09-28T22:36:31.500362 74697] Trying direct lookup
+[2022-09-28T22:36:31.501107 74697] Looking for result name in /home/link/.cache/Nuitka/ccache/3/2/cbmo9ur6ujtaqc6lth0o0g8tc9gf1dqM
+[2022-09-28T22:36:31.503535 74697] Got result name from manifest
+[2022-09-28T22:36:31.503549 74697] Reading result /home/link/.cache/Nuitka/ccache/0/7/8ca0a23lpire08phcku4ugh26advcpgR
+[2022-09-28T22:36:31.503622 74697] Reading embedded entry #0 .o (432176 bytes)
+[2022-09-28T22:36:31.503629 74697] Writing to module.gi.overrides.Gdk.o
+[2022-09-28T22:36:31.504114 74697] Succeeded getting cached result
+[2022-09-28T22:36:31.504125 74697] Result: cache hit (direct)
+[2022-09-28T22:36:31.504166 74697] Acquired lock /home/link/.cache/Nuitka/ccache/0/7/stats.lock
+[2022-09-28T22:36:31.504286 74697] Releasing lock /home/link/.cache/Nuitka/ccache/0/7/stats.lock
+[2022-09-28T22:36:31.504300 74697] Unlink /home/link/.cache/Nuitka/ccache/0/7/stats.lock
+[2022-09-28T22:36:31.540033 74701] === CCACHE 4.2.1 STARTED =========================================
+[2022-09-28T22:36:31.540033 74701] Config: (default) absolute_paths_in_stderr = false
+[2022-09-28T22:36:31.540033 74701] Config: (default) base_dir = 
+[2022-09-28T22:36:31.540033 74701] Config: (environment) cache_dir = /home/link/.cache/Nuitka/ccache
+[2022-09-28T22:36:31.540033 74701] Config: (default) compiler = 
+[2022-09-28T22:36:31.540033 74701] Config: (default) compiler_check = mtime
+[2022-09-28T22:36:31.540033 74701] Config: (default) compiler_type = auto
+[2022-09-28T22:36:31.540033 74701] Config: (default) compression = true
+[2022-09-28T22:36:31.540033 74701] Config: (default) compression_level = 0
+[2022-09-28T22:36:31.540033 74701] Config: (default) cpp_extension = 
+[2022-09-28T22:36:31.540033 74701] Config: (default) debug = false
+[2022-09-28T22:36:31.540033 74701] Config: (default) debug_dir = 
+[2022-09-28T22:36:31.540033 74701] Config: (default) depend_mode = false
+[2022-09-28T22:36:31.540033 74701] Config: (default) direct_mode = true
+[2022-09-28T22:36:31.540033 74701] Config: (default) disable = false
+[2022-09-28T22:36:31.540033 74701] Config: (default) extra_files_to_hash = 
+[2022-09-28T22:36:31.540033 74701] Config: (default) file_clone = false
+[2022-09-28T22:36:31.540033 74701] Config: (default) hard_link = false
+[2022-09-28T22:36:31.540033 74701] Config: (default) hash_dir = true
+[2022-09-28T22:36:31.540033 74701] Config: (default) ignore_headers_in_manifest = 
+[2022-09-28T22:36:31.540033 74701] Config: (default) ignore_options = 
+[2022-09-28T22:36:31.540033 74701] Config: (default) inode_cache = false
+[2022-09-28T22:36:31.540033 74701] Config: (default) keep_comments_cpp = false
+[2022-09-28T22:36:31.540033 74701] Config: (default) limit_multiple = 0.8
+[2022-09-28T22:36:31.540033 74701] Config: (environment) log_file = /home/link/PySharpGTK/gui.build/ccache-74613.txt
+[2022-09-28T22:36:31.540033 74701] Config: (default) max_files = 0
+[2022-09-28T22:36:31.540033 74701] Config: (default) max_size = 5.0G
+[2022-09-28T22:36:31.540033 74701] Config: (default) path = 
+[2022-09-28T22:36:31.540033 74701] Config: (default) pch_external_checksum = false
+[2022-09-28T22:36:31.540033 74701] Config: (default) prefix_command = 
+[2022-09-28T22:36:31.540033 74701] Config: (default) prefix_command_cpp = 
+[2022-09-28T22:36:31.540033 74701] Config: (default) read_only = false
+[2022-09-28T22:36:31.540033 74701] Config: (default) read_only_direct = false
+[2022-09-28T22:36:31.540033 74701] Config: (default) recache = false
+[2022-09-28T22:36:31.540033 74701] Config: (default) run_second_cpp = true
+[2022-09-28T22:36:31.540033 74701] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2022-09-28T22:36:31.540033 74701] Config: (default) stats = true
+[2022-09-28T22:36:31.540033 74701] Config: (default) temporary_dir = /run/user/1000/ccache-tmp
+[2022-09-28T22:36:31.540033 74701] Config: (default) umask = 
+[2022-09-28T22:36:31.540253 74701] Command line: /usr/bin/ccache /usr/bin/gcc -o module.gi.overrides.Gtk.o -c -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -D_NUITKA_STANDALONE -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=152 -D_NUITKA_EXE -D_NUITKA_PLUGIN_MULTIPROCESSING_ENABLED=1 -I/usr/include/python3.9 -I. -I/home/link/.local/lib/python3.9/site-packages/nuitka/build/include -I/home/link/.local/lib/python3.9/site-packages/nuitka/build/static_src module.gi.overrides.Gtk.c
+[2022-09-28T22:36:31.540267 74701] Hostname: poopos
+[2022-09-28T22:36:31.540271 74701] Working directory: /home/link/PySharpGTK/gui.build
+[2022-09-28T22:36:31.540274 74701] Compiler type: gcc
+[2022-09-28T22:36:31.540331 74701] Source file: module.gi.overrides.Gtk.c
+[2022-09-28T22:36:31.540336 74701] Object file: module.gi.overrides.Gtk.o
+[2022-09-28T22:36:31.540346 74701] Trying direct lookup
+[2022-09-28T22:36:31.544461 74701] Looking for result name in /home/link/.cache/Nuitka/ccache/0/0/72sf0clh9umtu3a0pr283q600se84ceM
+[2022-09-28T22:36:31.546918 74701] Got result name from manifest
+[2022-09-28T22:36:31.546946 74701] Reading result /home/link/.cache/Nuitka/ccache/3/b/84lmcbp6un024ne352gdtr5laemktugR
+[2022-09-28T22:36:31.547039 74701] Reading embedded entry #0 .o (1686840 bytes)
+[2022-09-28T22:36:31.547046 74701] Writing to module.gi.overrides.Gtk.o
+[2022-09-28T22:36:31.548562 74701] Succeeded getting cached result
+[2022-09-28T22:36:31.548576 74701] Result: cache hit (direct)
+[2022-09-28T22:36:31.548632 74701] Acquired lock /home/link/.cache/Nuitka/ccache/3/b/stats.lock
+[2022-09-28T22:36:31.548750 74701] Releasing lock /home/link/.cache/Nuitka/ccache/3/b/stats.lock
+[2022-09-28T22:36:31.548764 74701] Unlink /home/link/.cache/Nuitka/ccache/3/b/stats.lock
+[2022-09-28T22:36:31.549832 74704] === CCACHE 4.2.1 STARTED =========================================
+[2022-09-28T22:36:31.549832 74704] Config: (default) absolute_paths_in_stderr = false
+[2022-09-28T22:36:31.549832 74704] Config: (default) base_dir = 
+[2022-09-28T22:36:31.549832 74704] Config: (environment) cache_dir = /home/link/.cache/Nuitka/ccache
+[2022-09-28T22:36:31.549832 74704] Config: (default) compiler = 
+[2022-09-28T22:36:31.549832 74704] Config: (default) compiler_check = mtime
+[2022-09-28T22:36:31.549832 74704] Config: (default) compiler_type = auto
+[2022-09-28T22:36:31.549832 74704] Config: (default) compression = true
+[2022-09-28T22:36:31.549832 74704] Config: (default) compression_level = 0
+[2022-09-28T22:36:31.549832 74704] Config: (default) cpp_extension = 
+[2022-09-28T22:36:31.549832 74704] Config: (default) debug = false
+[2022-09-28T22:36:31.549832 74704] Config: (default) debug_dir = 
+[2022-09-28T22:36:31.549832 74704] Config: (default) depend_mode = false
+[2022-09-28T22:36:31.549832 74704] Config: (default) direct_mode = true
+[2022-09-28T22:36:31.549832 74704] Config: (default) disable = false
+[2022-09-28T22:36:31.549832 74704] Config: (default) extra_files_to_hash = 
+[2022-09-28T22:36:31.549832 74704] Config: (default) file_clone = false
+[2022-09-28T22:36:31.549832 74704] Config: (default) hard_link = false
+[2022-09-28T22:36:31.549832 74704] Config: (default) hash_dir = true
+[2022-09-28T22:36:31.549832 74704] Config: (default) ignore_headers_in_manifest = 
+[2022-09-28T22:36:31.549832 74704] Config: (default) ignore_options = 
+[2022-09-28T22:36:31.549832 74704] Config: (default) inode_cache = false
+[2022-09-28T22:36:31.549832 74704] Config: (default) keep_comments_cpp = false
+[2022-09-28T22:36:31.549832 74704] Config: (default) limit_multiple = 0.8
+[2022-09-28T22:36:31.549832 74704] Config: (environment) log_file = /home/link/PySharpGTK/gui.build/ccache-74613.txt
+[2022-09-28T22:36:31.549832 74704] Config: (default) max_files = 0
+[2022-09-28T22:36:31.549832 74704] Config: (default) max_size = 5.0G
+[2022-09-28T22:36:31.549832 74704] Config: (default) path = 
+[2022-09-28T22:36:31.549832 74704] Config: (default) pch_external_checksum = false
+[2022-09-28T22:36:31.549832 74704] Config: (default) prefix_command = 
+[2022-09-28T22:36:31.549832 74704] Config: (default) prefix_command_cpp = 
+[2022-09-28T22:36:31.549832 74704] Config: (default) read_only = false
+[2022-09-28T22:36:31.549832 74704] Config: (default) read_only_direct = false
+[2022-09-28T22:36:31.549832 74704] Config: (default) recache = false
+[2022-09-28T22:36:31.549832 74704] Config: (default) run_second_cpp = true
+[2022-09-28T22:36:31.549832 74704] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2022-09-28T22:36:31.549832 74704] Config: (default) stats = true
+[2022-09-28T22:36:31.549832 74704] Config: (default) temporary_dir = /run/user/1000/ccache-tmp
+[2022-09-28T22:36:31.549832 74704] Config: (default) umask = 
+[2022-09-28T22:36:31.549880 74704] Command line: /usr/bin/ccache /usr/bin/gcc -o module.gi.overrides.o -c -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -D_NUITKA_STANDALONE -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=152 -D_NUITKA_EXE -D_NUITKA_PLUGIN_MULTIPROCESSING_ENABLED=1 -I/usr/include/python3.9 -I. -I/home/link/.local/lib/python3.9/site-packages/nuitka/build/include -I/home/link/.local/lib/python3.9/site-packages/nuitka/build/static_src module.gi.overrides.c
+[2022-09-28T22:36:31.549889 74704] Hostname: poopos
+[2022-09-28T22:36:31.549898 74704] Working directory: /home/link/PySharpGTK/gui.build
+[2022-09-28T22:36:31.549901 74704] Compiler type: gcc
+[2022-09-28T22:36:31.549958 74704] Source file: module.gi.overrides.c
+[2022-09-28T22:36:31.549963 74704] Object file: module.gi.overrides.o
+[2022-09-28T22:36:31.549973 74704] Trying direct lookup
+[2022-09-28T22:36:31.550434 74704] Looking for result name in /home/link/.cache/Nuitka/ccache/c/7/c2mr5s510m54q9b3bp3i7ok3etqnj3cM
+[2022-09-28T22:36:31.552749 74704] Got result name from manifest
+[2022-09-28T22:36:31.552761 74704] Reading result /home/link/.cache/Nuitka/ccache/d/b/39osgjr1p2cp37ab9kpvrv16pdsr3gsR
+[2022-09-28T22:36:31.552841 74704] Reading embedded entry #0 .o (318512 bytes)
+[2022-09-28T22:36:31.552848 74704] Writing to module.gi.overrides.o
+[2022-09-28T22:36:31.553287 74704] Succeeded getting cached result
+[2022-09-28T22:36:31.553294 74704] Result: cache hit (direct)
+[2022-09-28T22:36:31.553334 74704] Acquired lock /home/link/.cache/Nuitka/ccache/d/b/stats.lock
+[2022-09-28T22:36:31.553431 74704] Releasing lock /home/link/.cache/Nuitka/ccache/d/b/stats.lock
+[2022-09-28T22:36:31.553447 74704] Unlink /home/link/.cache/Nuitka/ccache/d/b/stats.lock
+[2022-09-28T22:36:31.556110 74707] === CCACHE 4.2.1 STARTED =========================================
+[2022-09-28T22:36:31.556110 74707] Config: (default) absolute_paths_in_stderr = false
+[2022-09-28T22:36:31.556110 74707] Config: (default) base_dir = 
+[2022-09-28T22:36:31.556110 74707] Config: (environment) cache_dir = /home/link/.cache/Nuitka/ccache
+[2022-09-28T22:36:31.556110 74707] Config: (default) compiler = 
+[2022-09-28T22:36:31.556110 74707] Config: (default) compiler_check = mtime
+[2022-09-28T22:36:31.556110 74707] Config: (default) compiler_type = auto
+[2022-09-28T22:36:31.556110 74707] Config: (default) compression = true
+[2022-09-28T22:36:31.556110 74707] Config: (default) compression_level = 0
+[2022-09-28T22:36:31.556110 74707] Config: (default) cpp_extension = 
+[2022-09-28T22:36:31.556110 74707] Config: (default) debug = false
+[2022-09-28T22:36:31.556110 74707] Config: (default) debug_dir = 
+[2022-09-28T22:36:31.556110 74707] Config: (default) depend_mode = false
+[2022-09-28T22:36:31.556110 74707] Config: (default) direct_mode = true
+[2022-09-28T22:36:31.556110 74707] Config: (default) disable = false
+[2022-09-28T22:36:31.556110 74707] Config: (default) extra_files_to_hash = 
+[2022-09-28T22:36:31.556110 74707] Config: (default) file_clone = false
+[2022-09-28T22:36:31.556110 74707] Config: (default) hard_link = false
+[2022-09-28T22:36:31.556110 74707] Config: (default) hash_dir = true
+[2022-09-28T22:36:31.556110 74707] Config: (default) ignore_headers_in_manifest = 
+[2022-09-28T22:36:31.556110 74707] Config: (default) ignore_options = 
+[2022-09-28T22:36:31.556110 74707] Config: (default) inode_cache = false
+[2022-09-28T22:36:31.556110 74707] Config: (default) keep_comments_cpp = false
+[2022-09-28T22:36:31.556110 74707] Config: (default) limit_multiple = 0.8
+[2022-09-28T22:36:31.556110 74707] Config: (environment) log_file = /home/link/PySharpGTK/gui.build/ccache-74613.txt
+[2022-09-28T22:36:31.556110 74707] Config: (default) max_files = 0
+[2022-09-28T22:36:31.556110 74707] Config: (default) max_size = 5.0G
+[2022-09-28T22:36:31.556110 74707] Config: (default) path = 
+[2022-09-28T22:36:31.556110 74707] Config: (default) pch_external_checksum = false
+[2022-09-28T22:36:31.556110 74707] Config: (default) prefix_command = 
+[2022-09-28T22:36:31.556110 74707] Config: (default) prefix_command_cpp = 
+[2022-09-28T22:36:31.556110 74707] Config: (default) read_only = false
+[2022-09-28T22:36:31.556110 74707] Config: (default) read_only_direct = false
+[2022-09-28T22:36:31.556110 74707] Config: (default) recache = false
+[2022-09-28T22:36:31.556110 74707] Config: (default) run_second_cpp = true
+[2022-09-28T22:36:31.556110 74707] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2022-09-28T22:36:31.556110 74707] Config: (default) stats = true
+[2022-09-28T22:36:31.556110 74707] Config: (default) temporary_dir = /run/user/1000/ccache-tmp
+[2022-09-28T22:36:31.556110 74707] Config: (default) umask = 
+[2022-09-28T22:36:31.556237 74707] Command line: /usr/bin/ccache /usr/bin/gcc -o module.gi.repository.o -c -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -D_NUITKA_STANDALONE -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=152 -D_NUITKA_EXE -D_NUITKA_PLUGIN_MULTIPROCESSING_ENABLED=1 -I/usr/include/python3.9 -I. -I/home/link/.local/lib/python3.9/site-packages/nuitka/build/include -I/home/link/.local/lib/python3.9/site-packages/nuitka/build/static_src module.gi.repository.c
+[2022-09-28T22:36:31.556249 74707] Hostname: poopos
+[2022-09-28T22:36:31.556252 74707] Working directory: /home/link/PySharpGTK/gui.build
+[2022-09-28T22:36:31.556255 74707] Compiler type: gcc
+[2022-09-28T22:36:31.556309 74707] Source file: module.gi.repository.c
+[2022-09-28T22:36:31.556316 74707] Object file: module.gi.repository.o
+[2022-09-28T22:36:31.556325 74707] Trying direct lookup
+[2022-09-28T22:36:31.556379 74707] Looking for result name in /home/link/.cache/Nuitka/ccache/6/3/36rfrp68gdnhgpc4r9eed9msbp5h1hcM
+[2022-09-28T22:36:31.558692 74707] Got result name from manifest
+[2022-09-28T22:36:31.558704 74707] Reading result /home/link/.cache/Nuitka/ccache/4/d/d6m9hd3uj7tffe8daof153l5mkunkv6R
+[2022-09-28T22:36:31.558772 74707] Reading embedded entry #0 .o (59520 bytes)
+[2022-09-28T22:36:31.558778 74707] Writing to module.gi.repository.o
+[2022-09-28T22:36:31.558840 74707] Succeeded getting cached result
+[2022-09-28T22:36:31.558847 74707] Result: cache hit (direct)
+[2022-09-28T22:36:31.558876 74707] Acquired lock /home/link/.cache/Nuitka/ccache/4/d/stats.lock
+[2022-09-28T22:36:31.558970 74707] Releasing lock /home/link/.cache/Nuitka/ccache/4/d/stats.lock
+[2022-09-28T22:36:31.558987 74707] Unlink /home/link/.cache/Nuitka/ccache/4/d/stats.lock
+[2022-09-28T22:36:31.562889 74644] Using default compression level 1
+[2022-09-28T22:36:31.562946 74644] Storing result module.__parents_main__.o
+[2022-09-28T22:36:31.562953 74644] Storing embedded file #0 .o (228376 bytes) from module.__parents_main__.o
+[2022-09-28T22:36:31.563494 74644] Stored in cache: /home/link/.cache/Nuitka/ccache/3/e/c70qvaaeco9noonlt3v46teq9fsvkiuR
+[2022-09-28T22:36:31.563514 74644] Adding result name to /home/link/.cache/Nuitka/ccache/b/4/0cpm71315c81omtmmkud685u04u7nc4M
+[2022-09-28T22:36:31.563915 74644] Using default compression level 1
+[2022-09-28T22:36:31.564311 74644] Result: cache miss
+[2022-09-28T22:36:31.564345 74644] Acquired lock /home/link/.cache/Nuitka/ccache/b/stats.lock
+[2022-09-28T22:36:31.564422 74644] Releasing lock /home/link/.cache/Nuitka/ccache/b/stats.lock
+[2022-09-28T22:36:31.564438 74644] Unlink /home/link/.cache/Nuitka/ccache/b/stats.lock
+[2022-09-28T22:36:31.564454 74644] Acquired lock /home/link/.cache/Nuitka/ccache/3/stats.lock
+[2022-09-28T22:36:31.564518 74644] Releasing lock /home/link/.cache/Nuitka/ccache/3/stats.lock
+[2022-09-28T22:36:31.564532 74644] Unlink /home/link/.cache/Nuitka/ccache/3/stats.lock
+[2022-09-28T22:36:31.564540 74644] Unlink /run/user/1000/ccache-tmp/tmp.stderr.4SwoEE
+[2022-09-28T22:36:31.564545 74644] Unlink /run/user/1000/ccache-tmp/tmp.stdout.ttCX0h
+[2022-09-28T22:36:31.564549 74644] Unlink /run/user/1000/ccache-tmp/tmp.cpp_stderr.6AZbt9
+[2022-09-28T22:36:31.564554 74644] Unlink /run/user/1000/ccache-tmp/tmp.cpp_stdout.oISf4p.i
+[2022-09-28T22:36:31.564632 74644] Unlink /run/user/1000/ccache-tmp/tmp.cpp_stdout.oISf4p
+[2022-09-28T22:36:31.577164 74710] === CCACHE 4.2.1 STARTED =========================================
+[2022-09-28T22:36:31.577164 74710] Config: (default) absolute_paths_in_stderr = false
+[2022-09-28T22:36:31.577164 74710] Config: (default) base_dir = 
+[2022-09-28T22:36:31.577164 74710] Config: (environment) cache_dir = /home/link/.cache/Nuitka/ccache
+[2022-09-28T22:36:31.577164 74710] Config: (default) compiler = 
+[2022-09-28T22:36:31.577164 74710] Config: (default) compiler_check = mtime
+[2022-09-28T22:36:31.577164 74710] Config: (default) compiler_type = auto
+[2022-09-28T22:36:31.577164 74710] Config: (default) compression = true
+[2022-09-28T22:36:31.577164 74710] Config: (default) compression_level = 0
+[2022-09-28T22:36:31.577164 74710] Config: (default) cpp_extension = 
+[2022-09-28T22:36:31.577164 74710] Config: (default) debug = false
+[2022-09-28T22:36:31.577164 74710] Config: (default) debug_dir = 
+[2022-09-28T22:36:31.577164 74710] Config: (default) depend_mode = false
+[2022-09-28T22:36:31.577164 74710] Config: (default) direct_mode = true
+[2022-09-28T22:36:31.577164 74710] Config: (default) disable = false
+[2022-09-28T22:36:31.577164 74710] Config: (default) extra_files_to_hash = 
+[2022-09-28T22:36:31.577164 74710] Config: (default) file_clone = false
+[2022-09-28T22:36:31.577164 74710] Config: (default) hard_link = false
+[2022-09-28T22:36:31.577164 74710] Config: (default) hash_dir = true
+[2022-09-28T22:36:31.577164 74710] Config: (default) ignore_headers_in_manifest = 
+[2022-09-28T22:36:31.577164 74710] Config: (default) ignore_options = 
+[2022-09-28T22:36:31.577164 74710] Config: (default) inode_cache = false
+[2022-09-28T22:36:31.577164 74710] Config: (default) keep_comments_cpp = false
+[2022-09-28T22:36:31.577164 74710] Config: (default) limit_multiple = 0.8
+[2022-09-28T22:36:31.577164 74710] Config: (environment) log_file = /home/link/PySharpGTK/gui.build/ccache-74613.txt
+[2022-09-28T22:36:31.577164 74710] Config: (default) max_files = 0
+[2022-09-28T22:36:31.577164 74710] Config: (default) max_size = 5.0G
+[2022-09-28T22:36:31.577164 74710] Config: (default) path = 
+[2022-09-28T22:36:31.577164 74710] Config: (default) pch_external_checksum = false
+[2022-09-28T22:36:31.577164 74710] Config: (default) prefix_command = 
+[2022-09-28T22:36:31.577164 74710] Config: (default) prefix_command_cpp = 
+[2022-09-28T22:36:31.577164 74710] Config: (default) read_only = false
+[2022-09-28T22:36:31.577164 74710] Config: (default) read_only_direct = false
+[2022-09-28T22:36:31.577164 74710] Config: (default) recache = false
+[2022-09-28T22:36:31.577164 74710] Config: (default) run_second_cpp = true
+[2022-09-28T22:36:31.577164 74710] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2022-09-28T22:36:31.577164 74710] Config: (default) stats = true
+[2022-09-28T22:36:31.577164 74710] Config: (default) temporary_dir = /run/user/1000/ccache-tmp
+[2022-09-28T22:36:31.577164 74710] Config: (default) umask = 
+[2022-09-28T22:36:31.577364 74710] Command line: /usr/bin/ccache /usr/bin/gcc -o module.gi.types.o -c -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -D_NUITKA_STANDALONE -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=152 -D_NUITKA_EXE -D_NUITKA_PLUGIN_MULTIPROCESSING_ENABLED=1 -I/usr/include/python3.9 -I. -I/home/link/.local/lib/python3.9/site-packages/nuitka/build/include -I/home/link/.local/lib/python3.9/site-packages/nuitka/build/static_src module.gi.types.c
+[2022-09-28T22:36:31.577382 74710] Hostname: poopos
+[2022-09-28T22:36:31.577385 74710] Working directory: /home/link/PySharpGTK/gui.build
+[2022-09-28T22:36:31.577388 74710] Compiler type: gcc
+[2022-09-28T22:36:31.577452 74710] Source file: module.gi.types.c
+[2022-09-28T22:36:31.577458 74710] Object file: module.gi.types.o
+[2022-09-28T22:36:31.577472 74710] Trying direct lookup
+[2022-09-28T22:36:31.578115 74710] Looking for result name in /home/link/.cache/Nuitka/ccache/7/2/3behmg5ombb5vb7dfac41ai4qdiv38qM
+[2022-09-28T22:36:31.580546 74710] Got result name from manifest
+[2022-09-28T22:36:31.580557 74710] Reading result /home/link/.cache/Nuitka/ccache/8/0/8164en6pk8ld8dhuh7lk4s1tlf8on0qR
+[2022-09-28T22:36:31.580633 74710] Reading embedded entry #0 .o (309992 bytes)
+[2022-09-28T22:36:31.580640 74710] Writing to module.gi.types.o
+[2022-09-28T22:36:31.580992 74710] Succeeded getting cached result
+[2022-09-28T22:36:31.580999 74710] Result: cache hit (direct)
+[2022-09-28T22:36:31.581041 74710] Acquired lock /home/link/.cache/Nuitka/ccache/8/0/stats.lock
+[2022-09-28T22:36:31.581149 74710] Releasing lock /home/link/.cache/Nuitka/ccache/8/0/stats.lock
+[2022-09-28T22:36:31.581164 74710] Unlink /home/link/.cache/Nuitka/ccache/8/0/stats.lock
+[2022-09-28T22:36:31.583271 74713] === CCACHE 4.2.1 STARTED =========================================
+[2022-09-28T22:36:31.583271 74713] Config: (default) absolute_paths_in_stderr = false
+[2022-09-28T22:36:31.583271 74713] Config: (default) base_dir = 
+[2022-09-28T22:36:31.583271 74713] Config: (environment) cache_dir = /home/link/.cache/Nuitka/ccache
+[2022-09-28T22:36:31.583271 74713] Config: (default) compiler = 
+[2022-09-28T22:36:31.583271 74713] Config: (default) compiler_check = mtime
+[2022-09-28T22:36:31.583271 74713] Config: (default) compiler_type = auto
+[2022-09-28T22:36:31.583271 74713] Config: (default) compression = true
+[2022-09-28T22:36:31.583271 74713] Config: (default) compression_level = 0
+[2022-09-28T22:36:31.583271 74713] Config: (default) cpp_extension = 
+[2022-09-28T22:36:31.583271 74713] Config: (default) debug = false
+[2022-09-28T22:36:31.583271 74713] Config: (default) debug_dir = 
+[2022-09-28T22:36:31.583271 74713] Config: (default) depend_mode = false
+[2022-09-28T22:36:31.583271 74713] Config: (default) direct_mode = true
+[2022-09-28T22:36:31.583271 74713] Config: (default) disable = false
+[2022-09-28T22:36:31.583271 74713] Config: (default) extra_files_to_hash = 
+[2022-09-28T22:36:31.583271 74713] Config: (default) file_clone = false
+[2022-09-28T22:36:31.583271 74713] Config: (default) hard_link = false
+[2022-09-28T22:36:31.583271 74713] Config: (default) hash_dir = true
+[2022-09-28T22:36:31.583271 74713] Config: (default) ignore_headers_in_manifest = 
+[2022-09-28T22:36:31.583271 74713] Config: (default) ignore_options = 
+[2022-09-28T22:36:31.583271 74713] Config: (default) inode_cache = false
+[2022-09-28T22:36:31.583271 74713] Config: (default) keep_comments_cpp = false
+[2022-09-28T22:36:31.583271 74713] Config: (default) limit_multiple = 0.8
+[2022-09-28T22:36:31.583271 74713] Config: (environment) log_file = /home/link/PySharpGTK/gui.build/ccache-74613.txt
+[2022-09-28T22:36:31.583271 74713] Config: (default) max_files = 0
+[2022-09-28T22:36:31.583271 74713] Config: (default) max_size = 5.0G
+[2022-09-28T22:36:31.583271 74713] Config: (default) path = 
+[2022-09-28T22:36:31.583271 74713] Config: (default) pch_external_checksum = false
+[2022-09-28T22:36:31.583271 74713] Config: (default) prefix_command = 
+[2022-09-28T22:36:31.583271 74713] Config: (default) prefix_command_cpp = 
+[2022-09-28T22:36:31.583271 74713] Config: (default) read_only = false
+[2022-09-28T22:36:31.583271 74713] Config: (default) read_only_direct = false
+[2022-09-28T22:36:31.583271 74713] Config: (default) recache = false
+[2022-09-28T22:36:31.583271 74713] Config: (default) run_second_cpp = true
+[2022-09-28T22:36:31.583271 74713] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2022-09-28T22:36:31.583271 74713] Config: (default) stats = true
+[2022-09-28T22:36:31.583271 74713] Config: (default) temporary_dir = /run/user/1000/ccache-tmp
+[2022-09-28T22:36:31.583271 74713] Config: (default) umask = 
+[2022-09-28T22:36:31.583317 74713] Command line: /usr/bin/ccache /usr/bin/gcc -o module.libs.o -c -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -D_NUITKA_STANDALONE -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=152 -D_NUITKA_EXE -D_NUITKA_PLUGIN_MULTIPROCESSING_ENABLED=1 -I/usr/include/python3.9 -I. -I/home/link/.local/lib/python3.9/site-packages/nuitka/build/include -I/home/link/.local/lib/python3.9/site-packages/nuitka/build/static_src module.libs.c
+[2022-09-28T22:36:31.583330 74713] Hostname: poopos
+[2022-09-28T22:36:31.583333 74713] Working directory: /home/link/PySharpGTK/gui.build
+[2022-09-28T22:36:31.583336 74713] Compiler type: gcc
+[2022-09-28T22:36:31.583391 74713] Source file: module.libs.c
+[2022-09-28T22:36:31.583396 74713] Object file: module.libs.o
+[2022-09-28T22:36:31.583404 74713] Trying direct lookup
+[2022-09-28T22:36:31.583453 74713] Looking for result name in /home/link/.cache/Nuitka/ccache/8/8/d2k3vqss6tv9vtnsas071o6kjr4tdoiM
+[2022-09-28T22:36:31.586337 74713] Got result name from manifest
+[2022-09-28T22:36:31.586381 74713] Reading result /home/link/.cache/Nuitka/ccache/8/5/26r4sbtpoor1r882id69cfua6u20726R
+[2022-09-28T22:36:31.586508 74713] Reading embedded entry #0 .o (48688 bytes)
+[2022-09-28T22:36:31.586515 74713] Writing to module.libs.o
+[2022-09-28T22:36:31.586527 74716] === CCACHE 4.2.1 STARTED =========================================
+[2022-09-28T22:36:31.586596 74713] Succeeded getting cached result
+[2022-09-28T22:36:31.586609 74713] Result: cache hit (direct)
+[2022-09-28T22:36:31.586527 74716] Config: (default) absolute_paths_in_stderr = false
+[2022-09-28T22:36:31.586527 74716] Config: (default) base_dir = 
+[2022-09-28T22:36:31.586527 74716] Config: (environment) cache_dir = /home/link/.cache/Nuitka/ccache
+[2022-09-28T22:36:31.586527 74716] Config: (default) compiler = 
+[2022-09-28T22:36:31.586527 74716] Config: (default) compiler_check = mtime
+[2022-09-28T22:36:31.586527 74716] Config: (default) compiler_type = auto
+[2022-09-28T22:36:31.586527 74716] Config: (default) compression = true
+[2022-09-28T22:36:31.586527 74716] Config: (default) compression_level = 0
+[2022-09-28T22:36:31.586527 74716] Config: (default) cpp_extension = 
+[2022-09-28T22:36:31.586527 74716] Config: (default) debug = false
+[2022-09-28T22:36:31.586527 74716] Config: (default) debug_dir = 
+[2022-09-28T22:36:31.586527 74716] Config: (default) depend_mode = false
+[2022-09-28T22:36:31.586527 74716] Config: (default) direct_mode = true
+[2022-09-28T22:36:31.586527 74716] Config: (default) disable = false
+[2022-09-28T22:36:31.586527 74716] Config: (default) extra_files_to_hash = 
+[2022-09-28T22:36:31.586527 74716] Config: (default) file_clone = false
+[2022-09-28T22:36:31.586527 74716] Config: (default) hard_link = false
+[2022-09-28T22:36:31.586527 74716] Config: (default) hash_dir = true
+[2022-09-28T22:36:31.586527 74716] Config: (default) ignore_headers_in_manifest = 
+[2022-09-28T22:36:31.586527 74716] Config: (default) ignore_options = 
+[2022-09-28T22:36:31.586527 74716] Config: (default) inode_cache = false
+[2022-09-28T22:36:31.586527 74716] Config: (default) keep_comments_cpp = false
+[2022-09-28T22:36:31.586527 74716] Config: (default) limit_multiple = 0.8
+[2022-09-28T22:36:31.586527 74716] Config: (environment) log_file = /home/link/PySharpGTK/gui.build/ccache-74613.txt
+[2022-09-28T22:36:31.586527 74716] Config: (default) max_files = 0
+[2022-09-28T22:36:31.586527 74716] Config: (default) max_size = 5.0G
+[2022-09-28T22:36:31.586527 74716] Config: (default) path = 
+[2022-09-28T22:36:31.586527 74716] Config: (default) pch_external_checksum = false
+[2022-09-28T22:36:31.586527 74716] Config: (default) prefix_command = 
+[2022-09-28T22:36:31.586527 74716] Config: (default) prefix_command_cpp = 
+[2022-09-28T22:36:31.586527 74716] Config: (default) read_only = false
+[2022-09-28T22:36:31.586527 74716] Config: (default) read_only_direct = false
+[2022-09-28T22:36:31.586527 74716] Config: (default) recache = false
+[2022-09-28T22:36:31.586527 74716] Config: (default) run_second_cpp = true
+[2022-09-28T22:36:31.586527 74716] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2022-09-28T22:36:31.586527 74716] Config: (default) stats = true
+[2022-09-28T22:36:31.586527 74716] Config: (default) temporary_dir = /run/user/1000/ccache-tmp
+[2022-09-28T22:36:31.586527 74716] Config: (default) umask = 
+[2022-09-28T22:36:31.586618 74716] Command line: /usr/bin/ccache /usr/bin/gcc -o module.libs.networking.o -c -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -D_NUITKA_STANDALONE -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=152 -D_NUITKA_EXE -D_NUITKA_PLUGIN_MULTIPROCESSING_ENABLED=1 -I/usr/include/python3.9 -I. -I/home/link/.local/lib/python3.9/site-packages/nuitka/build/include -I/home/link/.local/lib/python3.9/site-packages/nuitka/build/static_src module.libs.networking.c
+[2022-09-28T22:36:31.586634 74716] Hostname: poopos
+[2022-09-28T22:36:31.586638 74716] Working directory: /home/link/PySharpGTK/gui.build
+[2022-09-28T22:36:31.586641 74716] Compiler type: gcc
+[2022-09-28T22:36:31.586677 74713] Acquired lock /home/link/.cache/Nuitka/ccache/8/5/stats.lock
+[2022-09-28T22:36:31.586710 74716] Source file: module.libs.networking.c
+[2022-09-28T22:36:31.586714 74716] Object file: module.libs.networking.o
+[2022-09-28T22:36:31.586724 74716] Trying direct lookup
+[2022-09-28T22:36:31.586825 74713] Releasing lock /home/link/.cache/Nuitka/ccache/8/5/stats.lock
+[2022-09-28T22:36:31.586844 74713] Unlink /home/link/.cache/Nuitka/ccache/8/5/stats.lock
+[2022-09-28T22:36:31.586901 74716] Looking for result name in /home/link/.cache/Nuitka/ccache/1/4/d63uusehtsfd42cpjfusqgpa0kts9t2M
+[2022-09-28T22:36:31.589410 74716] Got result name from manifest
+[2022-09-28T22:36:31.589423 74716] Reading result /home/link/.cache/Nuitka/ccache/6/e/a30l2moeoqumdhcm8trh56k5n73kk3oR
+[2022-09-28T22:36:31.589551 74716] Reading embedded entry #0 .o (122072 bytes)
+[2022-09-28T22:36:31.589558 74716] Writing to module.libs.networking.o
+[2022-09-28T22:36:31.589654 74716] Succeeded getting cached result
+[2022-09-28T22:36:31.589660 74716] Result: cache hit (direct)
+[2022-09-28T22:36:31.589691 74716] Acquired lock /home/link/.cache/Nuitka/ccache/6/e/stats.lock
+[2022-09-28T22:36:31.589796 74716] Releasing lock /home/link/.cache/Nuitka/ccache/6/e/stats.lock
+[2022-09-28T22:36:31.589834 74716] Unlink /home/link/.cache/Nuitka/ccache/6/e/stats.lock
+[2022-09-28T22:36:31.594715 74719] === CCACHE 4.2.1 STARTED =========================================
+[2022-09-28T22:36:31.594715 74719] Config: (default) absolute_paths_in_stderr = false
+[2022-09-28T22:36:31.594715 74719] Config: (default) base_dir = 
+[2022-09-28T22:36:31.594715 74719] Config: (environment) cache_dir = /home/link/.cache/Nuitka/ccache
+[2022-09-28T22:36:31.594715 74719] Config: (default) compiler = 
+[2022-09-28T22:36:31.594715 74719] Config: (default) compiler_check = mtime
+[2022-09-28T22:36:31.594715 74719] Config: (default) compiler_type = auto
+[2022-09-28T22:36:31.594715 74719] Config: (default) compression = true
+[2022-09-28T22:36:31.594715 74719] Config: (default) compression_level = 0
+[2022-09-28T22:36:31.594715 74719] Config: (default) cpp_extension = 
+[2022-09-28T22:36:31.594715 74719] Config: (default) debug = false
+[2022-09-28T22:36:31.594715 74719] Config: (default) debug_dir = 
+[2022-09-28T22:36:31.594715 74719] Config: (default) depend_mode = false
+[2022-09-28T22:36:31.594715 74719] Config: (default) direct_mode = true
+[2022-09-28T22:36:31.594715 74719] Config: (default) disable = false
+[2022-09-28T22:36:31.594715 74719] Config: (default) extra_files_to_hash = 
+[2022-09-28T22:36:31.594715 74719] Config: (default) file_clone = false
+[2022-09-28T22:36:31.594715 74719] Config: (default) hard_link = false
+[2022-09-28T22:36:31.594715 74719] Config: (default) hash_dir = true
+[2022-09-28T22:36:31.594715 74719] Config: (default) ignore_headers_in_manifest = 
+[2022-09-28T22:36:31.594715 74719] Config: (default) ignore_options = 
+[2022-09-28T22:36:31.594715 74719] Config: (default) inode_cache = false
+[2022-09-28T22:36:31.594715 74719] Config: (default) keep_comments_cpp = false
+[2022-09-28T22:36:31.594715 74719] Config: (default) limit_multiple = 0.8
+[2022-09-28T22:36:31.594715 74719] Config: (environment) log_file = /home/link/PySharpGTK/gui.build/ccache-74613.txt
+[2022-09-28T22:36:31.594715 74719] Config: (default) max_files = 0
+[2022-09-28T22:36:31.594715 74719] Config: (default) max_size = 5.0G
+[2022-09-28T22:36:31.594715 74719] Config: (default) path = 
+[2022-09-28T22:36:31.594715 74719] Config: (default) pch_external_checksum = false
+[2022-09-28T22:36:31.594715 74719] Config: (default) prefix_command = 
+[2022-09-28T22:36:31.594715 74719] Config: (default) prefix_command_cpp = 
+[2022-09-28T22:36:31.594715 74719] Config: (default) read_only = false
+[2022-09-28T22:36:31.594715 74719] Config: (default) read_only_direct = false
+[2022-09-28T22:36:31.594715 74719] Config: (default) recache = false
+[2022-09-28T22:36:31.594715 74719] Config: (default) run_second_cpp = true
+[2022-09-28T22:36:31.594715 74719] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2022-09-28T22:36:31.594715 74719] Config: (default) stats = true
+[2022-09-28T22:36:31.594715 74719] Config: (default) temporary_dir = /run/user/1000/ccache-tmp
+[2022-09-28T22:36:31.594715 74719] Config: (default) umask = 
+[2022-09-28T22:36:31.594773 74719] Command line: /usr/bin/ccache /usr/bin/gcc -o module.multiprocessing-postLoad.o -c -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -D_NUITKA_STANDALONE -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=152 -D_NUITKA_EXE -D_NUITKA_PLUGIN_MULTIPROCESSING_ENABLED=1 -I/usr/include/python3.9 -I. -I/home/link/.local/lib/python3.9/site-packages/nuitka/build/include -I/home/link/.local/lib/python3.9/site-packages/nuitka/build/static_src module.multiprocessing-postLoad.c
+[2022-09-28T22:36:31.594785 74719] Hostname: poopos
+[2022-09-28T22:36:31.594789 74719] Working directory: /home/link/PySharpGTK/gui.build
+[2022-09-28T22:36:31.594793 74719] Compiler type: gcc
+[2022-09-28T22:36:31.594864 74719] Source file: module.multiprocessing-postLoad.c
+[2022-09-28T22:36:31.594870 74719] Object file: module.multiprocessing-postLoad.o
+[2022-09-28T22:36:31.594880 74719] Trying direct lookup
+[2022-09-28T22:36:31.594970 74719] Looking for result name in /home/link/.cache/Nuitka/ccache/d/6/e5quml98s2v06phqquks671mugokt9kM
+[2022-09-28T22:36:31.596570 74639] Using default compression level 1
+[2022-09-28T22:36:31.596664 74639] Storing result module.__main__.o
+[2022-09-28T22:36:31.596673 74639] Storing embedded file #0 .o (308280 bytes) from module.__main__.o
+[2022-09-28T22:36:31.597260 74639] Stored in cache: /home/link/.cache/Nuitka/ccache/e/d/64dte14oifb57k91u0kfb57dequ7e64R
+[2022-09-28T22:36:31.597292 74639] Adding result name to /home/link/.cache/Nuitka/ccache/4/2/83oumg1gjeqnt8a6j00h48kqrr50op0M
+[2022-09-28T22:36:31.597303 74719] Got result name from manifest
+[2022-09-28T22:36:31.597312 74719] Reading result /home/link/.cache/Nuitka/ccache/a/c/c06suki5sqi68rrs0h65hab7r14tud8R
+[2022-09-28T22:36:31.597404 74719] Reading embedded entry #0 .o (79208 bytes)
+[2022-09-28T22:36:31.597411 74719] Writing to module.multiprocessing-postLoad.o
+[2022-09-28T22:36:31.597512 74719] Succeeded getting cached result
+[2022-09-28T22:36:31.597520 74719] Result: cache hit (direct)
+[2022-09-28T22:36:31.597554 74719] Acquired lock /home/link/.cache/Nuitka/ccache/a/c/stats.lock
+[2022-09-28T22:36:31.597648 74639] Using default compression level 1
+[2022-09-28T22:36:31.597656 74719] Releasing lock /home/link/.cache/Nuitka/ccache/a/c/stats.lock
+[2022-09-28T22:36:31.597668 74719] Unlink /home/link/.cache/Nuitka/ccache/a/c/stats.lock
+[2022-09-28T22:36:31.598083 74639] Result: cache miss
+[2022-09-28T22:36:31.598123 74639] Acquired lock /home/link/.cache/Nuitka/ccache/4/stats.lock
+[2022-09-28T22:36:31.598205 74639] Releasing lock /home/link/.cache/Nuitka/ccache/4/stats.lock
+[2022-09-28T22:36:31.598229 74639] Unlink /home/link/.cache/Nuitka/ccache/4/stats.lock
+[2022-09-28T22:36:31.598256 74639] Acquired lock /home/link/.cache/Nuitka/ccache/e/stats.lock
+[2022-09-28T22:36:31.598325 74639] Releasing lock /home/link/.cache/Nuitka/ccache/e/stats.lock
+[2022-09-28T22:36:31.598341 74639] Unlink /home/link/.cache/Nuitka/ccache/e/stats.lock
+[2022-09-28T22:36:31.598356 74639] Unlink /run/user/1000/ccache-tmp/tmp.stderr.BQcmUx
+[2022-09-28T22:36:31.598364 74639] Unlink /run/user/1000/ccache-tmp/tmp.stdout.y4cO6e
+[2022-09-28T22:36:31.598372 74639] Unlink /run/user/1000/ccache-tmp/tmp.cpp_stderr.vzKIqB
+[2022-09-28T22:36:31.598378 74639] Unlink /run/user/1000/ccache-tmp/tmp.cpp_stdout.GrrgLa.i
+[2022-09-28T22:36:31.598476 74639] Unlink /run/user/1000/ccache-tmp/tmp.cpp_stdout.GrrgLa
+[2022-09-28T22:36:31.601132 74722] === CCACHE 4.2.1 STARTED =========================================
+[2022-09-28T22:36:31.601132 74722] Config: (default) absolute_paths_in_stderr = false
+[2022-09-28T22:36:31.601132 74722] Config: (default) base_dir = 
+[2022-09-28T22:36:31.601132 74722] Config: (environment) cache_dir = /home/link/.cache/Nuitka/ccache
+[2022-09-28T22:36:31.601132 74722] Config: (default) compiler = 
+[2022-09-28T22:36:31.601132 74722] Config: (default) compiler_check = mtime
+[2022-09-28T22:36:31.601132 74722] Config: (default) compiler_type = auto
+[2022-09-28T22:36:31.601132 74722] Config: (default) compression = true
+[2022-09-28T22:36:31.601132 74722] Config: (default) compression_level = 0
+[2022-09-28T22:36:31.601132 74722] Config: (default) cpp_extension = 
+[2022-09-28T22:36:31.601132 74722] Config: (default) debug = false
+[2022-09-28T22:36:31.601132 74722] Config: (default) debug_dir = 
+[2022-09-28T22:36:31.601132 74722] Config: (default) depend_mode = false
+[2022-09-28T22:36:31.601132 74722] Config: (default) direct_mode = true
+[2022-09-28T22:36:31.601132 74722] Config: (default) disable = false
+[2022-09-28T22:36:31.601132 74722] Config: (default) extra_files_to_hash = 
+[2022-09-28T22:36:31.601132 74722] Config: (default) file_clone = false
+[2022-09-28T22:36:31.601132 74722] Config: (default) hard_link = false
+[2022-09-28T22:36:31.601132 74722] Config: (default) hash_dir = true
+[2022-09-28T22:36:31.601132 74722] Config: (default) ignore_headers_in_manifest = 
+[2022-09-28T22:36:31.601132 74722] Config: (default) ignore_options = 
+[2022-09-28T22:36:31.601132 74722] Config: (default) inode_cache = false
+[2022-09-28T22:36:31.601132 74722] Config: (default) keep_comments_cpp = false
+[2022-09-28T22:36:31.601132 74722] Config: (default) limit_multiple = 0.8
+[2022-09-28T22:36:31.601132 74722] Config: (environment) log_file = /home/link/PySharpGTK/gui.build/ccache-74613.txt
+[2022-09-28T22:36:31.601132 74722] Config: (default) max_files = 0
+[2022-09-28T22:36:31.601132 74722] Config: (default) max_size = 5.0G
+[2022-09-28T22:36:31.601132 74722] Config: (default) path = 
+[2022-09-28T22:36:31.601132 74722] Config: (default) pch_external_checksum = false
+[2022-09-28T22:36:31.601132 74722] Config: (default) prefix_command = 
+[2022-09-28T22:36:31.601132 74722] Config: (default) prefix_command_cpp = 
+[2022-09-28T22:36:31.601132 74722] Config: (default) read_only = false
+[2022-09-28T22:36:31.601132 74722] Config: (default) read_only_direct = false
+[2022-09-28T22:36:31.601132 74722] Config: (default) recache = false
+[2022-09-28T22:36:31.601132 74722] Config: (default) run_second_cpp = true
+[2022-09-28T22:36:31.601132 74722] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2022-09-28T22:36:31.601132 74722] Config: (default) stats = true
+[2022-09-28T22:36:31.601132 74722] Config: (default) temporary_dir = /run/user/1000/ccache-tmp
+[2022-09-28T22:36:31.601132 74722] Config: (default) umask = 
+[2022-09-28T22:36:31.601170 74722] Command line: /usr/bin/ccache /usr/bin/gcc -o module.multiprocessing-preLoad.o -c -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -D_NUITKA_STANDALONE -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=152 -D_NUITKA_EXE -D_NUITKA_PLUGIN_MULTIPROCESSING_ENABLED=1 -I/usr/include/python3.9 -I. -I/home/link/.local/lib/python3.9/site-packages/nuitka/build/include -I/home/link/.local/lib/python3.9/site-packages/nuitka/build/static_src module.multiprocessing-preLoad.c
+[2022-09-28T22:36:31.601181 74722] Hostname: poopos
+[2022-09-28T22:36:31.601184 74722] Working directory: /home/link/PySharpGTK/gui.build
+[2022-09-28T22:36:31.601187 74722] Compiler type: gcc
+[2022-09-28T22:36:31.601241 74722] Source file: module.multiprocessing-preLoad.c
+[2022-09-28T22:36:31.601246 74722] Object file: module.multiprocessing-preLoad.o
+[2022-09-28T22:36:31.601254 74722] Trying direct lookup
+[2022-09-28T22:36:31.601300 74722] Looking for result name in /home/link/.cache/Nuitka/ccache/6/6/03onq2qqhsbs7i43rgbb9n4q1aqp1msM
+[2022-09-28T22:36:31.603622 74722] Got result name from manifest
+[2022-09-28T22:36:31.603638 74722] Reading result /home/link/.cache/Nuitka/ccache/8/d/cbdmk90qgan6j8ejupj58drm98gc5tkR
+[2022-09-28T22:36:31.603711 74722] Reading embedded entry #0 .o (47696 bytes)
+[2022-09-28T22:36:31.603718 74722] Writing to module.multiprocessing-preLoad.o
+[2022-09-28T22:36:31.603781 74722] Succeeded getting cached result
+[2022-09-28T22:36:31.603787 74722] Result: cache hit (direct)
+[2022-09-28T22:36:31.603822 74722] Acquired lock /home/link/.cache/Nuitka/ccache/8/d/stats.lock
+[2022-09-28T22:36:31.603937 74722] Releasing lock /home/link/.cache/Nuitka/ccache/8/d/stats.lock
+[2022-09-28T22:36:31.603952 74722] Unlink /home/link/.cache/Nuitka/ccache/8/d/stats.lock
+[2022-09-28T22:36:31.607817 74725] === CCACHE 4.2.1 STARTED =========================================
+[2022-09-28T22:36:31.607817 74725] Config: (default) absolute_paths_in_stderr = false
+[2022-09-28T22:36:31.607817 74725] Config: (default) base_dir = 
+[2022-09-28T22:36:31.607817 74725] Config: (environment) cache_dir = /home/link/.cache/Nuitka/ccache
+[2022-09-28T22:36:31.607817 74725] Config: (default) compiler = 
+[2022-09-28T22:36:31.607817 74725] Config: (default) compiler_check = mtime
+[2022-09-28T22:36:31.607817 74725] Config: (default) compiler_type = auto
+[2022-09-28T22:36:31.607817 74725] Config: (default) compression = true
+[2022-09-28T22:36:31.607817 74725] Config: (default) compression_level = 0
+[2022-09-28T22:36:31.607817 74725] Config: (default) cpp_extension = 
+[2022-09-28T22:36:31.607817 74725] Config: (default) debug = false
+[2022-09-28T22:36:31.607817 74725] Config: (default) debug_dir = 
+[2022-09-28T22:36:31.607817 74725] Config: (default) depend_mode = false
+[2022-09-28T22:36:31.607817 74725] Config: (default) direct_mode = true
+[2022-09-28T22:36:31.607817 74725] Config: (default) disable = false
+[2022-09-28T22:36:31.607817 74725] Config: (default) extra_files_to_hash = 
+[2022-09-28T22:36:31.607817 74725] Config: (default) file_clone = false
+[2022-09-28T22:36:31.607817 74725] Config: (default) hard_link = false
+[2022-09-28T22:36:31.607817 74725] Config: (default) hash_dir = true
+[2022-09-28T22:36:31.607817 74725] Config: (default) ignore_headers_in_manifest = 
+[2022-09-28T22:36:31.607817 74725] Config: (default) ignore_options = 
+[2022-09-28T22:36:31.607817 74725] Config: (default) inode_cache = false
+[2022-09-28T22:36:31.607817 74725] Config: (default) keep_comments_cpp = false
+[2022-09-28T22:36:31.607817 74725] Config: (default) limit_multiple = 0.8
+[2022-09-28T22:36:31.607817 74725] Config: (environment) log_file = /home/link/PySharpGTK/gui.build/ccache-74613.txt
+[2022-09-28T22:36:31.607817 74725] Config: (default) max_files = 0
+[2022-09-28T22:36:31.607817 74725] Config: (default) max_size = 5.0G
+[2022-09-28T22:36:31.607817 74725] Config: (default) path = 
+[2022-09-28T22:36:31.607817 74725] Config: (default) pch_external_checksum = false
+[2022-09-28T22:36:31.607817 74725] Config: (default) prefix_command = 
+[2022-09-28T22:36:31.607817 74725] Config: (default) prefix_command_cpp = 
+[2022-09-28T22:36:31.607817 74725] Config: (default) read_only = false
+[2022-09-28T22:36:31.607817 74725] Config: (default) read_only_direct = false
+[2022-09-28T22:36:31.607817 74725] Config: (default) recache = false
+[2022-09-28T22:36:31.607817 74725] Config: (default) run_second_cpp = true
+[2022-09-28T22:36:31.607817 74725] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2022-09-28T22:36:31.607817 74725] Config: (default) stats = true
+[2022-09-28T22:36:31.607817 74725] Config: (default) temporary_dir = /run/user/1000/ccache-tmp
+[2022-09-28T22:36:31.607817 74725] Config: (default) umask = 
+[2022-09-28T22:36:31.607865 74725] Command line: /usr/bin/ccache /usr/bin/gcc -o static_src/MainProgram.o -c -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -D_NUITKA_STANDALONE -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=152 -D_NUITKA_EXE -D_NUITKA_PLUGIN_MULTIPROCESSING_ENABLED=1 -I/usr/include/python3.9 -I. -I/home/link/.local/lib/python3.9/site-packages/nuitka/build/include -I/home/link/.local/lib/python3.9/site-packages/nuitka/build/static_src static_src/MainProgram.c
+[2022-09-28T22:36:31.607876 74725] Hostname: poopos
+[2022-09-28T22:36:31.607880 74725] Working directory: /home/link/PySharpGTK/gui.build
+[2022-09-28T22:36:31.607883 74725] Compiler type: gcc
+[2022-09-28T22:36:31.607940 74725] Source file: static_src/MainProgram.c
+[2022-09-28T22:36:31.607945 74725] Object file: static_src/MainProgram.o
+[2022-09-28T22:36:31.607954 74725] Trying direct lookup
+[2022-09-28T22:36:31.608007 74725] Looking for result name in /home/link/.cache/Nuitka/ccache/7/9/92l170a32lo2gh0ra166aepdoavh0beM
+[2022-09-28T22:36:31.610439 74725] Got result name from manifest
+[2022-09-28T22:36:31.610450 74725] Reading result /home/link/.cache/Nuitka/ccache/4/8/bb5lghdr7pke7t437hf3b7qt7c1cshgR
+[2022-09-28T22:36:31.610540 74725] Reading embedded entry #0 .o (33304 bytes)
+[2022-09-28T22:36:31.610547 74725] Writing to static_src/MainProgram.o
+[2022-09-28T22:36:31.610598 74725] Succeeded getting cached result
+[2022-09-28T22:36:31.610605 74725] Result: cache hit (direct)
+[2022-09-28T22:36:31.610633 74725] Acquired lock /home/link/.cache/Nuitka/ccache/4/8/stats.lock
+[2022-09-28T22:36:31.610725 74725] Releasing lock /home/link/.cache/Nuitka/ccache/4/8/stats.lock
+[2022-09-28T22:36:31.610738 74725] Unlink /home/link/.cache/Nuitka/ccache/4/8/stats.lock
+[2022-09-28T22:36:31.620067 74728] === CCACHE 4.2.1 STARTED =========================================
+[2022-09-28T22:36:31.620067 74728] Config: (default) absolute_paths_in_stderr = false
+[2022-09-28T22:36:31.620067 74728] Config: (default) base_dir = 
+[2022-09-28T22:36:31.620067 74728] Config: (environment) cache_dir = /home/link/.cache/Nuitka/ccache
+[2022-09-28T22:36:31.620067 74728] Config: (default) compiler = 
+[2022-09-28T22:36:31.620067 74728] Config: (default) compiler_check = mtime
+[2022-09-28T22:36:31.620067 74728] Config: (default) compiler_type = auto
+[2022-09-28T22:36:31.620067 74728] Config: (default) compression = true
+[2022-09-28T22:36:31.620067 74728] Config: (default) compression_level = 0
+[2022-09-28T22:36:31.620067 74728] Config: (default) cpp_extension = 
+[2022-09-28T22:36:31.620067 74728] Config: (default) debug = false
+[2022-09-28T22:36:31.620067 74728] Config: (default) debug_dir = 
+[2022-09-28T22:36:31.620067 74728] Config: (default) depend_mode = false
+[2022-09-28T22:36:31.620067 74728] Config: (default) direct_mode = true
+[2022-09-28T22:36:31.620067 74728] Config: (default) disable = false
+[2022-09-28T22:36:31.620067 74728] Config: (default) extra_files_to_hash = 
+[2022-09-28T22:36:31.620067 74728] Config: (default) file_clone = false
+[2022-09-28T22:36:31.620067 74728] Config: (default) hard_link = false
+[2022-09-28T22:36:31.620067 74728] Config: (default) hash_dir = true
+[2022-09-28T22:36:31.620067 74728] Config: (default) ignore_headers_in_manifest = 
+[2022-09-28T22:36:31.620067 74728] Config: (default) ignore_options = 
+[2022-09-28T22:36:31.620067 74728] Config: (default) inode_cache = false
+[2022-09-28T22:36:31.620067 74728] Config: (default) keep_comments_cpp = false
+[2022-09-28T22:36:31.620067 74728] Config: (default) limit_multiple = 0.8
+[2022-09-28T22:36:31.620067 74728] Config: (environment) log_file = /home/link/PySharpGTK/gui.build/ccache-74613.txt
+[2022-09-28T22:36:31.620067 74728] Config: (default) max_files = 0
+[2022-09-28T22:36:31.620067 74728] Config: (default) max_size = 5.0G
+[2022-09-28T22:36:31.620067 74728] Config: (default) path = 
+[2022-09-28T22:36:31.620067 74728] Config: (default) pch_external_checksum = false
+[2022-09-28T22:36:31.620067 74728] Config: (default) prefix_command = 
+[2022-09-28T22:36:31.620067 74728] Config: (default) prefix_command_cpp = 
+[2022-09-28T22:36:31.620067 74728] Config: (default) read_only = false
+[2022-09-28T22:36:31.620067 74728] Config: (default) read_only_direct = false
+[2022-09-28T22:36:31.620067 74728] Config: (default) recache = false
+[2022-09-28T22:36:31.620067 74728] Config: (default) run_second_cpp = true
+[2022-09-28T22:36:31.620067 74728] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2022-09-28T22:36:31.620067 74728] Config: (default) stats = true
+[2022-09-28T22:36:31.620067 74728] Config: (default) temporary_dir = /run/user/1000/ccache-tmp
+[2022-09-28T22:36:31.620067 74728] Config: (default) umask = 
+[2022-09-28T22:36:31.620113 74728] Command line: /usr/bin/ccache /usr/bin/gcc -o static_src/CompiledCellType.o -c -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -D_NUITKA_STANDALONE -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=152 -D_NUITKA_EXE -D_NUITKA_PLUGIN_MULTIPROCESSING_ENABLED=1 -I/usr/include/python3.9 -I. -I/home/link/.local/lib/python3.9/site-packages/nuitka/build/include -I/home/link/.local/lib/python3.9/site-packages/nuitka/build/static_src static_src/CompiledCellType.c
+[2022-09-28T22:36:31.620125 74728] Hostname: poopos
+[2022-09-28T22:36:31.620129 74728] Working directory: /home/link/PySharpGTK/gui.build
+[2022-09-28T22:36:31.620132 74728] Compiler type: gcc
+[2022-09-28T22:36:31.620187 74728] Source file: static_src/CompiledCellType.c
+[2022-09-28T22:36:31.620193 74728] Object file: static_src/CompiledCellType.o
+[2022-09-28T22:36:31.620201 74728] Trying direct lookup
+[2022-09-28T22:36:31.620231 74728] Looking for result name in /home/link/.cache/Nuitka/ccache/f/f/dd3n0c6ovh22lja6f9a2m2p8efvnnaoM
+[2022-09-28T22:36:31.622620 74728] Got result name from manifest
+[2022-09-28T22:36:31.622632 74728] Reading result /home/link/.cache/Nuitka/ccache/7/3/fak7lpgtun1f60ideu29pkp871omqekR
+[2022-09-28T22:36:31.622702 74728] Reading embedded entry #0 .o (35240 bytes)
+[2022-09-28T22:36:31.622710 74728] Writing to static_src/CompiledCellType.o
+[2022-09-28T22:36:31.622762 74728] Succeeded getting cached result
+[2022-09-28T22:36:31.622769 74728] Result: cache hit (direct)
+[2022-09-28T22:36:31.622800 74728] Acquired lock /home/link/.cache/Nuitka/ccache/7/3/stats.lock
+[2022-09-28T22:36:31.622891 74728] Releasing lock /home/link/.cache/Nuitka/ccache/7/3/stats.lock
+[2022-09-28T22:36:31.622910 74728] Unlink /home/link/.cache/Nuitka/ccache/7/3/stats.lock
+[2022-09-28T22:36:31.688693 74731] === CCACHE 4.2.1 STARTED =========================================
+[2022-09-28T22:36:31.688693 74731] Config: (default) absolute_paths_in_stderr = false
+[2022-09-28T22:36:31.688693 74731] Config: (default) base_dir = 
+[2022-09-28T22:36:31.688693 74731] Config: (environment) cache_dir = /home/link/.cache/Nuitka/ccache
+[2022-09-28T22:36:31.688693 74731] Config: (default) compiler = 
+[2022-09-28T22:36:31.688693 74731] Config: (default) compiler_check = mtime
+[2022-09-28T22:36:31.688693 74731] Config: (default) compiler_type = auto
+[2022-09-28T22:36:31.688693 74731] Config: (default) compression = true
+[2022-09-28T22:36:31.688693 74731] Config: (default) compression_level = 0
+[2022-09-28T22:36:31.688693 74731] Config: (default) cpp_extension = 
+[2022-09-28T22:36:31.688693 74731] Config: (default) debug = false
+[2022-09-28T22:36:31.688693 74731] Config: (default) debug_dir = 
+[2022-09-28T22:36:31.688693 74731] Config: (default) depend_mode = false
+[2022-09-28T22:36:31.688693 74731] Config: (default) direct_mode = true
+[2022-09-28T22:36:31.688693 74731] Config: (default) disable = false
+[2022-09-28T22:36:31.688693 74731] Config: (default) extra_files_to_hash = 
+[2022-09-28T22:36:31.688693 74731] Config: (default) file_clone = false
+[2022-09-28T22:36:31.688693 74731] Config: (default) hard_link = false
+[2022-09-28T22:36:31.688693 74731] Config: (default) hash_dir = true
+[2022-09-28T22:36:31.688693 74731] Config: (default) ignore_headers_in_manifest = 
+[2022-09-28T22:36:31.688693 74731] Config: (default) ignore_options = 
+[2022-09-28T22:36:31.688693 74731] Config: (default) inode_cache = false
+[2022-09-28T22:36:31.688693 74731] Config: (default) keep_comments_cpp = false
+[2022-09-28T22:36:31.688693 74731] Config: (default) limit_multiple = 0.8
+[2022-09-28T22:36:31.688693 74731] Config: (environment) log_file = /home/link/PySharpGTK/gui.build/ccache-74613.txt
+[2022-09-28T22:36:31.688693 74731] Config: (default) max_files = 0
+[2022-09-28T22:36:31.688693 74731] Config: (default) max_size = 5.0G
+[2022-09-28T22:36:31.688693 74731] Config: (default) path = 
+[2022-09-28T22:36:31.688693 74731] Config: (default) pch_external_checksum = false
+[2022-09-28T22:36:31.688693 74731] Config: (default) prefix_command = 
+[2022-09-28T22:36:31.688693 74731] Config: (default) prefix_command_cpp = 
+[2022-09-28T22:36:31.688693 74731] Config: (default) read_only = false
+[2022-09-28T22:36:31.688693 74731] Config: (default) read_only_direct = false
+[2022-09-28T22:36:31.688693 74731] Config: (default) recache = false
+[2022-09-28T22:36:31.688693 74731] Config: (default) run_second_cpp = true
+[2022-09-28T22:36:31.688693 74731] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2022-09-28T22:36:31.688693 74731] Config: (default) stats = true
+[2022-09-28T22:36:31.688693 74731] Config: (default) temporary_dir = /run/user/1000/ccache-tmp
+[2022-09-28T22:36:31.688693 74731] Config: (default) umask = 
+[2022-09-28T22:36:31.688904 74731] Command line: /usr/bin/ccache /usr/bin/gcc -o static_src/CompiledFunctionType.o -c -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -D_NUITKA_STANDALONE -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=152 -D_NUITKA_EXE -D_NUITKA_PLUGIN_MULTIPROCESSING_ENABLED=1 -I/usr/include/python3.9 -I. -I/home/link/.local/lib/python3.9/site-packages/nuitka/build/include -I/home/link/.local/lib/python3.9/site-packages/nuitka/build/static_src static_src/CompiledFunctionType.c
+[2022-09-28T22:36:31.688917 74731] Hostname: poopos
+[2022-09-28T22:36:31.688921 74731] Working directory: /home/link/PySharpGTK/gui.build
+[2022-09-28T22:36:31.688924 74731] Compiler type: gcc
+[2022-09-28T22:36:31.688997 74731] Source file: static_src/CompiledFunctionType.c
+[2022-09-28T22:36:31.689003 74731] Object file: static_src/CompiledFunctionType.o
+[2022-09-28T22:36:31.689012 74731] Trying direct lookup
+[2022-09-28T22:36:31.689119 74731] Looking for result name in /home/link/.cache/Nuitka/ccache/4/c/82337hpfgjsfr9bghvrgff41hml4hgiM
+[2022-09-28T22:36:31.693987 74731] Got result name from manifest
+[2022-09-28T22:36:31.693999 74731] Reading result /home/link/.cache/Nuitka/ccache/a/0/97q02fmt306223njc2klr0iiu5p7bneR
+[2022-09-28T22:36:31.694067 74731] Reading embedded entry #0 .o (2798840 bytes)
+[2022-09-28T22:36:31.694074 74731] Writing to static_src/CompiledFunctionType.o
+[2022-09-28T22:36:31.696416 74731] Succeeded getting cached result
+[2022-09-28T22:36:31.696424 74731] Result: cache hit (direct)
+[2022-09-28T22:36:31.696464 74731] Acquired lock /home/link/.cache/Nuitka/ccache/a/0/stats.lock
+[2022-09-28T22:36:31.696575 74731] Releasing lock /home/link/.cache/Nuitka/ccache/a/0/stats.lock
+[2022-09-28T22:36:31.696589 74731] Unlink /home/link/.cache/Nuitka/ccache/a/0/stats.lock
+[2022-09-28T22:36:31.699750 74734] === CCACHE 4.2.1 STARTED =========================================
+[2022-09-28T22:36:31.699750 74734] Config: (default) absolute_paths_in_stderr = false
+[2022-09-28T22:36:31.699750 74734] Config: (default) base_dir = 
+[2022-09-28T22:36:31.699750 74734] Config: (environment) cache_dir = /home/link/.cache/Nuitka/ccache
+[2022-09-28T22:36:31.699750 74734] Config: (default) compiler = 
+[2022-09-28T22:36:31.699750 74734] Config: (default) compiler_check = mtime
+[2022-09-28T22:36:31.699750 74734] Config: (default) compiler_type = auto
+[2022-09-28T22:36:31.699750 74734] Config: (default) compression = true
+[2022-09-28T22:36:31.699750 74734] Config: (default) compression_level = 0
+[2022-09-28T22:36:31.699750 74734] Config: (default) cpp_extension = 
+[2022-09-28T22:36:31.699750 74734] Config: (default) debug = false
+[2022-09-28T22:36:31.699750 74734] Config: (default) debug_dir = 
+[2022-09-28T22:36:31.699750 74734] Config: (default) depend_mode = false
+[2022-09-28T22:36:31.699750 74734] Config: (default) direct_mode = true
+[2022-09-28T22:36:31.699750 74734] Config: (default) disable = false
+[2022-09-28T22:36:31.699750 74734] Config: (default) extra_files_to_hash = 
+[2022-09-28T22:36:31.699750 74734] Config: (default) file_clone = false
+[2022-09-28T22:36:31.699750 74734] Config: (default) hard_link = false
+[2022-09-28T22:36:31.699750 74734] Config: (default) hash_dir = true
+[2022-09-28T22:36:31.699750 74734] Config: (default) ignore_headers_in_manifest = 
+[2022-09-28T22:36:31.699750 74734] Config: (default) ignore_options = 
+[2022-09-28T22:36:31.699750 74734] Config: (default) inode_cache = false
+[2022-09-28T22:36:31.699750 74734] Config: (default) keep_comments_cpp = false
+[2022-09-28T22:36:31.699750 74734] Config: (default) limit_multiple = 0.8
+[2022-09-28T22:36:31.699750 74734] Config: (environment) log_file = /home/link/PySharpGTK/gui.build/ccache-74613.txt
+[2022-09-28T22:36:31.699750 74734] Config: (default) max_files = 0
+[2022-09-28T22:36:31.699750 74734] Config: (default) max_size = 5.0G
+[2022-09-28T22:36:31.699750 74734] Config: (default) path = 
+[2022-09-28T22:36:31.699750 74734] Config: (default) pch_external_checksum = false
+[2022-09-28T22:36:31.699750 74734] Config: (default) prefix_command = 
+[2022-09-28T22:36:31.699750 74734] Config: (default) prefix_command_cpp = 
+[2022-09-28T22:36:31.699750 74734] Config: (default) read_only = false
+[2022-09-28T22:36:31.699750 74734] Config: (default) read_only_direct = false
+[2022-09-28T22:36:31.699750 74734] Config: (default) recache = false
+[2022-09-28T22:36:31.699750 74734] Config: (default) run_second_cpp = true
+[2022-09-28T22:36:31.699750 74734] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2022-09-28T22:36:31.699750 74734] Config: (default) stats = true
+[2022-09-28T22:36:31.699750 74734] Config: (default) temporary_dir = /run/user/1000/ccache-tmp
+[2022-09-28T22:36:31.699750 74734] Config: (default) umask = 
+[2022-09-28T22:36:31.699877 74734] Command line: /usr/bin/ccache /usr/bin/gcc -o static_src/CompiledGeneratorType.o -c -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -D_NUITKA_STANDALONE -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=152 -D_NUITKA_EXE -D_NUITKA_PLUGIN_MULTIPROCESSING_ENABLED=1 -I/usr/include/python3.9 -I. -I/home/link/.local/lib/python3.9/site-packages/nuitka/build/include -I/home/link/.local/lib/python3.9/site-packages/nuitka/build/static_src static_src/CompiledGeneratorType.c
+[2022-09-28T22:36:31.699890 74734] Hostname: poopos
+[2022-09-28T22:36:31.699893 74734] Working directory: /home/link/PySharpGTK/gui.build
+[2022-09-28T22:36:31.699897 74734] Compiler type: gcc
+[2022-09-28T22:36:31.699954 74734] Source file: static_src/CompiledGeneratorType.c
+[2022-09-28T22:36:31.699959 74734] Object file: static_src/CompiledGeneratorType.o
+[2022-09-28T22:36:31.699967 74734] Trying direct lookup
+[2022-09-28T22:36:31.700035 74734] Looking for result name in /home/link/.cache/Nuitka/ccache/e/1/10kmbs02nsbb6ju3ipolinsdaripf3cM
+[2022-09-28T22:36:31.702349 74737] === CCACHE 4.2.1 STARTED =========================================
+[2022-09-28T22:36:31.702452 74734] Got result name from manifest
+[2022-09-28T22:36:31.702463 74734] Reading result /home/link/.cache/Nuitka/ccache/f/b/c0h34o7of33lvcmts085taqnemlmbjoR
+[2022-09-28T22:36:31.702349 74737] Config: (default) absolute_paths_in_stderr = false
+[2022-09-28T22:36:31.702349 74737] Config: (default) base_dir = 
+[2022-09-28T22:36:31.702349 74737] Config: (environment) cache_dir = /home/link/.cache/Nuitka/ccache
+[2022-09-28T22:36:31.702349 74737] Config: (default) compiler = 
+[2022-09-28T22:36:31.702349 74737] Config: (default) compiler_check = mtime
+[2022-09-28T22:36:31.702349 74737] Config: (default) compiler_type = auto
+[2022-09-28T22:36:31.702349 74737] Config: (default) compression = true
+[2022-09-28T22:36:31.702349 74737] Config: (default) compression_level = 0
+[2022-09-28T22:36:31.702349 74737] Config: (default) cpp_extension = 
+[2022-09-28T22:36:31.702349 74737] Config: (default) debug = false
+[2022-09-28T22:36:31.702349 74737] Config: (default) debug_dir = 
+[2022-09-28T22:36:31.702349 74737] Config: (default) depend_mode = false
+[2022-09-28T22:36:31.702349 74737] Config: (default) direct_mode = true
+[2022-09-28T22:36:31.702349 74737] Config: (default) disable = false
+[2022-09-28T22:36:31.702349 74737] Config: (default) extra_files_to_hash = 
+[2022-09-28T22:36:31.702349 74737] Config: (default) file_clone = false
+[2022-09-28T22:36:31.702349 74737] Config: (default) hard_link = false
+[2022-09-28T22:36:31.702349 74737] Config: (default) hash_dir = true
+[2022-09-28T22:36:31.702349 74737] Config: (default) ignore_headers_in_manifest = 
+[2022-09-28T22:36:31.702349 74737] Config: (default) ignore_options = 
+[2022-09-28T22:36:31.702349 74737] Config: (default) inode_cache = false
+[2022-09-28T22:36:31.702349 74737] Config: (default) keep_comments_cpp = false
+[2022-09-28T22:36:31.702349 74737] Config: (default) limit_multiple = 0.8
+[2022-09-28T22:36:31.702349 74737] Config: (environment) log_file = /home/link/PySharpGTK/gui.build/ccache-74613.txt
+[2022-09-28T22:36:31.702349 74737] Config: (default) max_files = 0
+[2022-09-28T22:36:31.702349 74737] Config: (default) max_size = 5.0G
+[2022-09-28T22:36:31.702349 74737] Config: (default) path = 
+[2022-09-28T22:36:31.702349 74737] Config: (default) pch_external_checksum = false
+[2022-09-28T22:36:31.702349 74737] Config: (default) prefix_command = 
+[2022-09-28T22:36:31.702349 74737] Config: (default) prefix_command_cpp = 
+[2022-09-28T22:36:31.702349 74737] Config: (default) read_only = false
+[2022-09-28T22:36:31.702349 74737] Config: (default) read_only_direct = false
+[2022-09-28T22:36:31.702349 74737] Config: (default) recache = false
+[2022-09-28T22:36:31.702349 74737] Config: (default) run_second_cpp = true
+[2022-09-28T22:36:31.702349 74737] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2022-09-28T22:36:31.702349 74737] Config: (default) stats = true
+[2022-09-28T22:36:31.702349 74737] Config: (default) temporary_dir = /run/user/1000/ccache-tmp
+[2022-09-28T22:36:31.702349 74737] Config: (default) umask = 
+[2022-09-28T22:36:31.702465 74737] Command line: /usr/bin/ccache /usr/bin/gcc -o static_src/InspectPatcher.o -c -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -D_NUITKA_STANDALONE -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=152 -D_NUITKA_EXE -D_NUITKA_PLUGIN_MULTIPROCESSING_ENABLED=1 -I/usr/include/python3.9 -I. -I/home/link/.local/lib/python3.9/site-packages/nuitka/build/include -I/home/link/.local/lib/python3.9/site-packages/nuitka/build/static_src static_src/InspectPatcher.c
+[2022-09-28T22:36:31.702476 74737] Hostname: poopos
+[2022-09-28T22:36:31.702478 74737] Working directory: /home/link/PySharpGTK/gui.build
+[2022-09-28T22:36:31.702482 74737] Compiler type: gcc
+[2022-09-28T22:36:31.702537 74737] Source file: static_src/InspectPatcher.c
+[2022-09-28T22:36:31.702543 74737] Object file: static_src/InspectPatcher.o
+[2022-09-28T22:36:31.702546 74734] Reading embedded entry #0 .o (308632 bytes)
+[2022-09-28T22:36:31.702550 74734] Writing to static_src/CompiledGeneratorType.o
+[2022-09-28T22:36:31.702550 74737] Trying direct lookup
+[2022-09-28T22:36:31.702586 74737] Looking for result name in /home/link/.cache/Nuitka/ccache/f/9/acqfgqtheghrqpmvhphk9drosj6oprmM
+[2022-09-28T22:36:31.702883 74734] Succeeded getting cached result
+[2022-09-28T22:36:31.702891 74734] Result: cache hit (direct)
+[2022-09-28T22:36:31.702929 74734] Acquired lock /home/link/.cache/Nuitka/ccache/f/b/stats.lock
+[2022-09-28T22:36:31.703041 74734] Releasing lock /home/link/.cache/Nuitka/ccache/f/b/stats.lock
+[2022-09-28T22:36:31.703054 74734] Unlink /home/link/.cache/Nuitka/ccache/f/b/stats.lock
+[2022-09-28T22:36:31.704908 74737] Got result name from manifest
+[2022-09-28T22:36:31.704924 74737] Reading result /home/link/.cache/Nuitka/ccache/5/d/967drhpt9au9luvvuqi0tau0p44dhseR
+[2022-09-28T22:36:31.704991 74737] Reading embedded entry #0 .o (41576 bytes)
+[2022-09-28T22:36:31.704995 74737] Writing to static_src/InspectPatcher.o
+[2022-09-28T22:36:31.705047 74737] Succeeded getting cached result
+[2022-09-28T22:36:31.705053 74737] Result: cache hit (direct)
+[2022-09-28T22:36:31.705086 74737] Acquired lock /home/link/.cache/Nuitka/ccache/5/d/stats.lock
+[2022-09-28T22:36:31.705169 74737] Releasing lock /home/link/.cache/Nuitka/ccache/5/d/stats.lock
+[2022-09-28T22:36:31.705186 74737] Unlink /home/link/.cache/Nuitka/ccache/5/d/stats.lock

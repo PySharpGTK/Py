@@ -1,0 +1,47 @@
+{
+    "Objects": [
+        {
+            "type":"Box",
+            "pos":[0,0],
+            "args":{
+                "$orientation":"Gtk.Orientation.HORIZONTAL"
+            },
+            "children":[
+                {
+                    "type":"Button",
+                    "id":"wowButton",
+                    "args":{
+                        "label":"wow()"
+                    }
+                },
+                {
+                    "type":"Label",
+                    "args":{
+                        "label":"<- Is actually an embedded function!"
+                    }
+                }
+            ]
+        },
+        {
+            "type":"Box",
+            "pos":[0,0],
+            "args":{
+                "$orientation":"Gtk.Orientation.VERTICAL"
+            },
+            "children":[
+                {
+                    "type":"Entry",
+                    "id":"clickmeEntry",
+                    "args":{}
+                },
+                {
+                    "type":"Label",
+                    "id":"data_out",
+                    "args":{
+                        "label":"..."
+                    }
+                }
+            ]
+        }
+    ]
+}
